@@ -1,0 +1,69 @@
+These are the questions I got in the interview.
+Pannel name : Govindarajan
+Duration : 1hr 
+
+1.Introduce yourself ?
+2.Explain about project architecture which you have worked before?
+3.Do you worked on microservices ?
+4.If one service is down How will you handle that situation?
+5.Explain about Caching in Database ?
+6.What are the new features introduced in JAVA 8 ?
+7.Explain about Functional Interface ?
+8.Do you worked on multithreading ?
+9.sync and async in multithreading ?
+10.Explain about springboot Annotations ?
+11.Autowiring and types of Autowiring in springboot ?
+12.Can we use @Autowired in @component level?
+13.Explain the main purposes of @Service,@RestController and @Repository ?
+14.Did you work on any CICD ?
+15.Any pipeline scripts you wrote in your project what are the steps involved in that?
+16.Do you know about sonar, Krunch 44 ?
+17.Did you work on Any TDD ?
+18.Is any code analysis tools you have used and what is the minimum range of percentage the project should meet ?
+19. Did you worked on Exception Handling ?
+20.Explain the scenario how you handled the Exception that occured in your project ?
+21.Do you know about Custom Exception ?
+22.Did you create any global Exceptions ?
+23.what are the annotations involved while Exception Handling?
+24.Did you work on spring security ?
+25.You have one String "proramming with JAVA 8" display as character,count of each character in java like J,1 and m,2 etc. using JAVA Streams ?
+
+
+
+These are the questions I got in the interview.
+Pannel name : Tulasi ,srinivasan
+Duration : 30 min
+
+1) Introduce yourself technically ?
+2) Rating yourself in Java and Angular ?
+3) Volatile Keyword in Multithreading ?
+4) Did you worked on any CICD ?and steps involved in that ?
+5) Difference between Git and Github ?
+6) which pipeline management tool you have worked on ?
+7) what is the difference between String buffer and String builder ?
+8) Why String class is immutable ?
+9) if the class is immutable as you are saying setter methods won't exist? how you can inialize the values ?
+10) what Java 8 features you have worked on ?
+11) How you implement Functional Interfaces?
+12) what are the features of java DATE/TIME API in Java 8?
+13) what is stateless API ?
+14) Did you worked on spring security ? explain JWT ?
+15) which will make JWT as more secure ?
+16) which build tool you have used ?
+17) what are the spring starter dependencies you have worked on ?
+18) explain about @Lombok and which is better using @lombok or traditional getters setters approach ?
+19) Explain about DataJPA and what are the interfaces extends by JPA Repository ?
+20) what is the version of JUNIT,Java you have worked ?
+21) which version of Java supports Spring latest version ?
+22) write SQL Query to retrieve data related to count(*) and group by ?
+23)you wrote nativeQueries in Repository by using mySQL ? and database migrated to other database how you manage those queries ?
+Angular ::
+1) what are the Decorators in Angular ?
+2) what is the difference between typescript and Javascript ?
+3) what is the difference betwen Angular and AngularJS ?
+4) which version of angular you worked ?what are the features added in the latest Angular version ?
+5) Lifecycle hooks ?
+6) Explain Angular Lifecycle ?
+7) Explain about @NgModule and purpose of it ?
+8) Interpolation ?
+9) What are the pipes you have worked on ?

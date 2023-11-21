@@ -1,0 +1,49 @@
+sharwan::
+1.Tell me about yourself ?
+2.What was the exact role in the last project ?
+3.How much rate yourself in java and angular.
+4.Which cloud technology experience you have ?
+5.What are the services you have used in AWS cloud ?
+6.Can you explain your project architecture ?
+7.What is the use of AWS load balancer ?
+8.how Spring cloud gateway works and its component name.
+9.what type of security implemented in your project.
+10.Total how many member in your team and how you get your work ?
+11.What is encapsulation ?
+12.What is Abstraction ?
+13.What is autowiring in spring and types of it.
+14.Difference between Spring and Spring boot ?
+15.How can you communicate one microservice to another microservice.
+16.Can we directly communicate one microservice to another microservice without using discovery service ?
+17.How many database have you worked ?
+18. how many experience you have in mongodb ?
+19.Difference between MongoDB and other database.
+
+
+Hymed Ali::
+1. Introduce yourself technically.
+2. Which version of spring boot used in your project?
+3. Which java version supports latest springbok version?
+4. what are the new features in spring boot latest version?
+5. How to enable spring boot auto configuration?
+6. How to disable spring boot auto configuration?
+7. What are the annotation you used in your project?
+8. How will you handle exceptions in your project?
+9. How will you handle global exception in spring boot?
+10. What are the features of Java8 you have used in project?
+11. What is the difference between stream() and parallel Stream()?
+12. Have you worked in Angular?
+13. What is data binding?
+14. How will you achieve 2-way data binding?
+15. What is ngOnInit?
+16. What is Ng Model ?
+17. What are directives in angular and types of it?
+18. What is typescript?
+19. How you enabled authentication and authorization in your project?
+20. How you will write immutable class and explain?
+21. What are the databases have you worked on?
+22. SQL Query for top 5 records from table?
+23. What is TDD and have you implemented TDD in your application?
+24. How will you deploy your application using Jekins?
+25. How will you maintain and write multiple property files in you application?
+26. What is swagger and have you integrated swagger in your application?
