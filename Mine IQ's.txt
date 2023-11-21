@@ -67,3 +67,9 @@ Angular ::
 7) Explain about @NgModule and purpose of it ?
 8) Interpolation ?
 9) What are the pipes you have worked on ?
+
+
+
+
+
+gafsagfsdjafsajf
