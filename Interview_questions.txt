@@ -1,0 +1,15 @@
+
+1.How to count the each and every charactor in Java8?
+   String str="Programming with java8";
+2.How to handle the multiple thread occured?
+3.when it will throw the outofmemory error?
+4.if its throwing the out of memory error then what will happening?
+5.what is the concurrent hashmap?
+6.how would u handle the static and final ?
+7.diff b/w serialization and deserialization?
+8.Explain flow of project technically?
+9.what are the annotation used in your project?
+10.what is purpose to use the @qualifier annotation?
+11.How to handle authentication in controller?
+12.what is the purpose to use the Serialization?
+13.Explain spring DI and example?

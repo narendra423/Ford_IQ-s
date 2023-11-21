@@ -1,0 +1,4137 @@
+
+FORD INTERVIEW QUESTIONS
+
+1. Frontend to Backend connectivity
+
+2. Event binding
+
+3. Parent & child communication
+
+4. Feature module
+
+5. Use of httpclient module
+
+6. Observable is sync or async
+
+7. how to handle different profiles in angular?
+
+8. Two way databinding
+
+9. Restcontroller vs controller
+
+10. Java 8 features
+
+11. why lambda expression is used
+
+12. Sort employee Array using java 7 and 8
+
+13. Spring profiles
+
+14. Different ways to autoincrement ID value
+
+15. @Onetomany , @manytomany &@Joincolumn
+
+16. Resttemplate vs webclient
+
+17. How will you handle if one microservice is malfunctioning
+
+18. JWT & Auth token generation
+
+19. How will you maintain code standards
+
+20. Deployment in GCP
+
+21. how to check application health
+
+22. what is Docker
+23.Introduce about yourself
+24.Techologies used in the previous project.
+25.Major Issues in the project.
+26.Index inSQL
+27.Singleton design pattern
+28.previous project structure
+29.How to handle multithreading in the project
+30.what type of server used in the project
+31.How to deploy in jenkins
+32.can we configure the project schedule in jenkins
+1.Tell me about yourself
+2. agile methodlogy
+3. How will you gather your requirements and deploy your code
+4.source code management
+5.previous project workflow
+6.errors and exceptions faced in your projects
+7.have you faced any performence related issues in your projects.
+8.singleton 
+8.rest api status code.
+9.primary key vs foreign key
+10.indexing
+11.stored procedure
+Candidate 1:
+
+Java 8 features
+Junit 5
+Why mockito
+SonarQube
+Normal vs stereotype annotation
+Filter & aggregation in stream API
+Authguard & internal working of CanActivate method
+Thumb rule of Junit testing
+How will you deploy your application?
+Pipeline configuration in GCP
+Image in Kubernetes & pods
+Authentication & authorization done in backend.
+Configuration of JWT tokens
+How will you generate base64UrlEncode(payload)
+ 
+
+Candidate 2:
+
+Self Intro
+Java 8 Features
+Stream API
+Why String is immutable?
+Difference/similarities between Arraylist vs Linkedlist
+Explain ConcurrentModification Exception
+Spring boot annotations
+Spring boot Autoconfiguration
+Auto-wiring
+Spring Profiles
+Application properties vs YML
+Test Driven Development
+How will you perform JUnit testing?
+Agile methodology
+Create Rest API to save employee object.
+Sonar Qube.
+Spring Boot Global Exception Handling
+start your self
+
+explain your project what you done that project
+
+gradle what changes you made
+
+exiting application how add new features or add some more modules
+
+explain abstract and interface
+
+what is fuctional interface
+
+why we use lambda expression
+
+who will assign the user story
+
+have you attend retro meeting
+
+how to handle the exception in your application
+
+what is try catch finally
+
+how to config the hibernate in your application
+
+how hibernate retrieve the database values
+
+what about JPA Repository
+
+your user story and you have some  backlog at that what you have do for complete the task
+Interview is for new project called Connected EV.
+Sathish(Tech Lead) and Rahul (PO) joined the Call.
+
+Interview Questions:
+Tell me about yourself.
+Java :
+1.Functional Interface
+2.stream api
+3.parallel stream
+4.inbuild methods in stream.
+5.find duplicates using the stream.(in notepad)
+6. sort the numbers using comparator/comparable.(in notepad)
+
+Spring boot:
+1.@service vs @Repository
+2.scopes of spring bean
+3.features of springboot
+
+Angular:
+1.lifecycle hooks
+2.observable​.
+Tell me about yourself
+
+ANGULAR:
+
+1.Types of directives
+2.Component directives
+3.List of integers using ngfor in angular
+4.how would you call endpoint in angular
+5.Lifecycle hooks in angular
+6.how to build angular application
+7.how to generate a new component in angular
+8.how to pass id from front to back end
+
+SPRINGBOOT:
+
+1.collections in java
+2.In rest API how to receive in spring boot
+3.how can you create a repository for student entity in spring boot
+4.predicate in java 8
+5.optional in java 8
+6.uses of map
+7.multithreading
+8.synchronisation in java
+9.difference between runtime and checked exceptions
+10.polymorphism
+11.cicd
+12.how to write Junit test cases for service class in spring boot
+Interview Panel
+
+Selva Kumar, Saravanan, Kala Rahul Jain
+
+----- self introduction technically
+
+
+-----------Angular--------------
+
+1. Features of Angular.
+
+2. How do you pass data through backend.
+
+3. Services.
+4. What is pipes ?
+5. Directive and types?
+
+6. what is routing.
+
+7. In what way you communicate from angular to spring boot.
+
+8. what is Directive and types.
+9. Component decorator, explain the structures.
+10. Can we you use external CSS file.
+11. Explain parent to child component and child to parent component.
+12. What is Form Builder, form Group and form control.
+13. Explain the types of forms and explain the usage.
+14. ngIf, ngFor and ngSwitch.
+15. CrossOrigin and is it another way to connect the backend without using crossorigin annotaion
+-----------Spring Boot-----------------------
+
+1. Features of Spring Boot.
+
+2. How to save data through REST API and write the code.
+
+@RestController
+
+@RequestMapping
+
+public class DemoController
+
+{
+
+@Autowired
+
+DemoService demoservice
+
+@PostMapping("/save")
+
+public Demo newSave(@RequestBody Demo de)
+
+{
+
+Demo do = demoservice.saveDemo(de)
+
+return do;
+
+}
+
+3. how to connect two database in the properties file
+
+4. explain the try with resources
+
+5. what is Controller advice
+
+6. what is entity graph
+
+7. In what way you call the value from the application.properties file in your class file.
+
+8. Serialization
+---------------Hibernate--------------------
+1. Hibernate annotation.
+
+2. How do you map the primary key to another table.
+
+3. What annotation is used to store my PK field from parent table to child table.
+
+4. yaml file
+--------------------Java8------------------------
+1. Explain Some of the features in Java8
+
+2. Which java8 streams are you are familiar ? Streams
+3. Write the code for whose employee age is greater than 40?
+
+4. in filter streams, what is the return type. ?
+5. What is method reference.
+
+6. try with resources, how many class you can create using with try with resources
+
+7. Any experience in JUnit.
+The Interview questions that was asked in Cyclone project Interview up to my rememberance are as follows,
+
+Panel: Mohammed Sadhique and Vinay
+
+->Introduce Yourself Technically
+
+Angular:
+->List the directives in angular and explain each
+questions are about the decorators after explanations.
+->Explain static typing in angular
+->Explain subject in angular
+->Given an employee array and asked to list it in code by filtering it's name and age.
+->Explain how data is sent over angular
+->What type of attribute directive you have worked on, Explain with example.
+
+Spring Boot:
+->questions are asked based on project.
+->Why Spring Boot over Spring?
+->Given a scenario and asked what are all annotations that by default comes from spring boot when
+using different packages.
+->Sterotype annotations in springboot and it's usages.
+->Application.properties have two or more db connections how will you use it in your POJO?
+->Controller vs RestController
+->RestController in detail with example
+
+Java 8:
+->Given an employee array and asked to list employees with particular employee name and age
+and asked to return true
+-> questions are asked based on code written for above, like
+how will you group the employeeList by age alone.
+->how do you list sum of ages in an employeeList?
+
+Junit:
+
+Have you used Junit in your project?
+Based on the answer provided they ask like how do you use it for testCases?​
+Hi,
+
+The questions that were asked in Ford Interview were as follows,
+
+Panel: Mohammed Sadhique and Vinay
+
+>Introduce Yourself Technically
+
+Angular:
+
+->Advantages of using Angular
+->Javascript vs Typescript
+->what is decorator in Angular?
+->What is component and write syntax for a component?
+->Given an employee array and asked to list it in code by filtering it's name.
+->Explain how data is sent over angular
+
+Spring Boot:
+->Questions were based on previous work.
+->Why Spring Boot over Spring?
+-> what are all annotations that by default comes from spring boot
+->Sterotype annotations in springboot and it's usages.
+->Application.properties have two or more db connections how will you use it in your POJO?
+->Controller vs RestController
+
+
+Java 8:
+->Features of Java 8.
+->how do you list sum of numbers in an employeeList using Java 8 (Stream)?
+->how do you list sum of numbers in an employeeList using Java 7?
+
+Junit:
+
+->Have you used Junit in your project?
+Based on the answer provided they ask like how do you use it for testCases?​
+1.Technical intro
+
+Angular
+1.Appication flow in angular
+2.parent-child & child- parent communication
+3.what is node_module
+4.How to add dependencies in angular
+5.where we mention feature module in angular
+6.what is router
+7.what type of form you used in your project
+8.Lifecycle hook
+9.ngmodule
+10.Two way Binding
+11.observable & subscrible
+12.Async pipes & custom Pipes, How will you create custom pipe
+13.what is directives & explain its type with their decorative
+14.how will you iterate the array in TS
+15.how will you create the custom directives
+16.purpose of @injectable
+17.@crossorigin & proxy.server.config
+
+SpringBoot
+1.spring MVC vs spring boot
+2.@SpringBootApplication
+3.What is IOC and DI?
+4.Use of @componentScan, how to scan a particular class
+5.@Autowired & @Qualifier
+6.singleton & prototype?
+7.Constructor based DI
+8.Spring profiles (if there are two application.properties how will you access a particular one)
+
+JAVA
+1.String Immutable, why?
+2.searlization, deserialization
+3.types of string declaration and how it stores internally
+4.string intern
+5.singleton(Design pattern)
+6.heap vs constat pool
+7.what is getter & setter method?
+8.how we make class as immutable?
+Interview Questions:
+
+1.Self Intro
+
+2. Java 8 Features
+
+3.Stream API
+
+4.why String is immutable
+
+5. Arraylist vs Linkedlist
+
+6.ConcurrentModification Exception
+
+7.spring boot annotations
+
+8.spring boot Autoconfiguration
+
+9.Autowiring
+
+10.Spring Profiles
+
+11.application properties vs yml
+
+12 Test Driven Development
+
+13.how will you perform junit testing
+
+14.agile methodology
+
+15.create Rest Api to save employee object.
+
+16.Sonar Qube.
+
+17.Spring Boot Global Exception Handling
+Interview Questions 
+
+ 
+
+Tells about your Self
+
+Can you brief polymorphism and encapsulation 
+
+What is interface why we use that
+
+What about @fuctionalinterview 
+
+Brief run() method
+
+Array list and Linked Iist difference
+
+Fail fast and fail safe
+
+Explain Hashmap and hash set 
+
+Integer[20,10,25,9,7] find max 3 numbers using streamapi 
+
+What are the Java 1.8 your using 
+
+Explain method reference explain syntax
+
+What is purpose of default method in interface 
+
+What are difficulties you have face in your project 
+
+Explain your project 
+
+What are technologies are used in your project
+
+What is the purpose of jenkins
+
+How to resolved the production issue 
+
+What are the stages in that
+
+You couldn’t resolve that issue it’s take more then 2hrs what you do that time
+
+What is pipes
+
+Brief about one way binding and two way binding 
+
+Ng module
+
+How to configure different environments in angular 
+
+How to connect Angular and spring boot 
+
+Have you worked in ORM tool
+
+What is ORM why we use that 
+
+What is hibernate 
+
+How to configure the hibernate in your application 
+
+What are the model annotations you know 
+
+What is the purpose of using @entity and @id
+
+What are the sql queries you know
+
+What is the difference inner joins and left joins 
+
+Have write any store procedure
+
+Referential constraint
+
+What springboot annotations you frequently used
+
+What is the purpose of using @idclass
+
+What are environments you know 
+
+How to differentiate that environments
+
+What is the difference @service and @componentscan
+
+What aspect 
+
+Why we use microservices 
+
+What are the monitoring tools you have use for your application 
+
+How to call one service to another service
+
+You have Any cloud knowledge
+
+What your hobby 
+
+What’s your strength and weakness
+1.how to connect your front end to backend
+
+2.gate way function, micro service
+
+3.jenkins funtionality
+
+4.development to deployment process
+
+5.how to configure server properties to dev ,qa,prod env
+
+6.what is config server do
+
+7.what is spring security and how will you achieve it
+
+8.how will you generate jwt token and you pass the jwt to backend and which class is processing the token
+
+9.what are the spring boot annotation used
+
+10.rest api method and its function
+
+11.gcp deployment process
+
+12.how you write the junit testcase
+
+13.what are the difficulties faced in your previous project and how you overcome
+
+14.what are the ide you have worked
+
+15.what is maven how did you used in your project​
+Ways to achieve polymorphism
+Interface & implemented classed in collection framework
+Map is in collection framework
+List vs Map
+Annotations in Springboot
+@SpringBootApplication in detail
+How to get employee name in a springboot full code flow
+Use of ResponseEntity
+How to create table in Database from springboot
+RESTAPI is stateless or stateful
+Junit 5 & Mockito
+Library used for Pie & bar chart in angular
+How to convert PDF file to Blob
+Flow of file download step by step in angular
+Different ways to inject a service in angular
+How will you maintain you login details
+How jwt token remains for the particular user
+Difference between @directives & @component
+Full flow to post entity from frontend to backend
+Css vs Scss
+Let vs const
+maximum size of constructor injection 
+Lint in angular
+Sonarqube
+Test bed in karma
+scenario based questions in authguard
+GitHub to docker
+1.Self Intro
+
+2.brief your previous project
+
+3.what are the Chages you have made in project
+
+4.what you upgrade in Gradle
+
+5.what are the spring boot annotation you know
+
+6.explain spring boot flow
+
+7.springboot which version you have use
+
+8.what is autowire
+
+9.how to generate jwt tokens
+
+10.how to validate the tokens
+
+11.what is the purpose of using jwt token
+
+12.Any idea about Spring Batch
+
+13.how to connect jpa with database
+MBFS Interview Questions(10.04.2023):
+
+Sel introduction
+Questions from Previous project 
+spring profile and how to configure it
+spring boot annotations
+spring batch architecture
+spring boot lifecycle
+How to connect database with spring boot
+How to write test cases in spring boot
+How to provide security to rest api and its implementation
+How do you validate JWT token in spring boot
+spring vs spring boot.
+How do you create job and deploy project using Jenkins
+How to achieve code compatibility in angular
+How do you deploy you angular application
+How do you authenticate and authorize user in angular application
+How to enable production mode in angular
+Inner join in sql
+MAX function in sql
+find highest salary in a column 
+find 4th highest salary in sql
+How do you achieve local storage in angular
+How to commit code using git
+How to raise pull request
+How to write native query in spring boot
+1) Introduce about yourself with your skills?
+
+2) Questions related to previous projects
+
+3) Expectations related to GCP and Tekton
+
+4) Jenkins Configurations
+
+5) Creating pipeline on Jenkins?
+
+6) How to secure API when connecting from angular to backend?
+
+7) How to use Swagger API in your project and detailed explanation on swagger configuration?
+
+8) How do you write Junit test cases?
+
+9) How to write test cases for DB connections and the data transform?
+
+10) How to build project in jenkins w.r.t environment from GIT
+
+11) How to configure database individually for every environment like QA,Prod and so on?
+
+12) How to secure each and every API call?
+
+13) How will you create microservice project and how to connect b/w each applications?
+
+14) What is rest template and how to use in your project?
+
+15) Difference between getforObject and exchange method in rest template?
+
+16) What happens when we try to hit the service with getForObject method which is not up and running?
+
+17) If it returns exception or error what it will be?
+
+18) Complete architecture of spring boot with detailed explanation?
+
+19) Write an url to fetch particular book from bookstore
+
+20) Explain each and every component on that URL and why it is used?
+
+21) What are all the status code we will get for the above URL mentioned?
+
+22) public class Calculator {
+
+        public int add(int a, int b) {
+
+            return a + b;
+
+        }
+
+        public float add(float a, float b) {
+
+            return a + b;
+
+        }
+
+        public double add(double a, double b) {
+
+            return a + b;
+
+        }
+
+ }
+
+ 
+
+How will you simplify the boiler plate code for the above program? return a+b should not be used again and again but it should be compatible for all the three return types?
+
+ 
+
+Other than this most of questions based on Jenkins,Azure,Jira,Agile methodology and GIT
+ 
+
+1.self intro
+
+2.previous project explanation
+
+3.tekton
+
+4.google cloud run
+
+5.app engine
+
+6.on premises
+
+7.mssql
+
+8.kafka
+
+9.graphql
+
+10.how will you achieve multi threading
+
+11.what are the ways to achieve multi threading
+
+12.if we have lot of storage in my sql database and database is getting down in production env means how will recover your database and application
+
+13.life cycle hooks in angular
+
+14.how will you communicate with micro service
+
+15.how to achive load balancing in microservice if many users hitting api at the same time
+
+16.circuit breaker
+
+17.spring security explantion
+
+18.oauth2 explanation
+
+19.how will you validate the token whether its valid or not
+
+20.what is jenkins
+
+21.how to deploy your project in jenkins
+
+22. write the pipeline script for multiple stages build
+
+23.singleton design pattern
+
+24.have you worked in any other design pattern other than singleton
+
+25.consider scenario we have try catch and finally if we have system.exit in try block means whether the finally block will execute?
+
+26.have you worked in executor service
+
+27.have you worked in sonarqube
+
+28.how will you configure sonarqube in your project in jenkins
+
+29.what is the spring boot version you are currently working
+
+30.have you worked in junit testing
+
+31.Can a class be static in Java?
+
+32.have you worked on react js or view js
+1.self intro
+
+2.previous project explanation
+
+3.tekton
+
+4.google cloud run
+
+5.app engine
+
+6.how will you communicate with micro service
+
+7.spring security explantion
+
+8.oauth2 explanation
+
+9.how will you validate the token whether its valid or not
+
+10.what is jenkins
+
+11.how to deploy your project in jenkins
+
+12.write the pipeline script for multiple stages build
+
+13.given bookstore project.in the bookstore having many books having different price,author.
+
+how will you store all the books and corresponding details in database .tell api call whole process from contoller to database.
+
+if you are going to buy a one book how will you do the rest api hit and get the corresponding details.
+
+if i buy multiple books how will you right the query and calculate the price
+
+14.different between get and post mapping
+
+15.you can use PUT for save operation instead of POST?
+
+16.what are the HTTP response code you know like 200,204 etc
+
+17.if you are getting 500 error means how will you convert the error to http response to the user
+
+18.what are the ways to write junit testcase for controller file?
+
+19.consider scenario having service file inside that i have autowired dao file how will you write testcase for dao file what are the annotation use will use
+
+20.what are the api method accept body
+
+21.why get method not accepting body
+
+22.are you able to validate the token through rest api hit
+Date:13-04-2023
+
+1.Tell me about yourself
+2. agile methodlogy
+3. Project Scenario Based Questions
+4.source code management
+5.Jenkins CICD
+6. exceptions Handling 
+7.Java 8 Features
+8. rest api status code.
+9.primary key vs foreign key
+10.Microservices
+11.GCP
+
+Date:18-04-2023
+
+1.Tell me about yourself
+2.project Related Questions
+3.Source Code Management
+4.Java 8 features
+5.abstract vs Interface
+6.Static Keyword
+7.ConcurrentModification Exception
+8.SingleTon
+9.Spring MVC 
+10.application.Properties
+11.RestController Vs Controller
+12.Map vs List
+13.Spring Boot Features
+14.Microservice Architecture
+15.Spring Boot Project folder Structure
+16.Auto Configuration
+17.Spring Boot annotations
+18.Angular Basics
+19.GCP
+Introduce yourself technically
+Questions about my previous project( Migration)
+How to handle exceptions
+Throw and Throws 
+Functional Interface
+Default Methods
+Default vs Static Methods in Java8
+Use Streams to print the even numbers
+Int vs Integer
+String Constant pool, What happens if new string is created?
+Ways to initalize String variable
+What you will do in your springboot projects?
+Write flow of Springboot api to save the data in database(Entire flow from application properties)
+@RestController usage
+@Getter and @Setter 
+Why variables inside Entity are private?
+What happens if setters and getters are declared as private?
+Questions from Repository
+Composite and Foreign Key
+Microservices
+Circuit Breaker
+Any Idea about Cloud Technologies
+How will you maintain load balance in cloud
+Why MongoDB(mentioned in my project)
+Angular component creation and explain
+Parent to Child communication
+Change values 0 as false and 1 as true (Custom Pipes)
+How will display the value in html which is got as response from backend
+Issues faced in my previous project
+Questions from AWS 
+Introduce about yourself
+Project related questions
+Abstract vs Interface? Where you have used in project? In which scenario will go for abstract and when to interface?
+Can we create abstract class without any methods?
+How to sort list of Employee object with respect to Employee Salary?
+Comparator vs Comparable? Where you have used in project? In which scenario will go for Comparator and when to Comparable?
+Throw vs Throws? Where you have used in project?
+What is user defined exception? How to create user defined exception? How will you handle this exception in project? 
+What is lambda expression? Where you have used in project?
+What are predefined functional interfaces before java 1.8 and after 1.8?
+What is stream and where you have used in project?
+Difference between filter and map in stream?
+How to handle custom exceptions in spring boot?
+How will you handle exceptions occurred during the api call?
+How will you fetch data from Employee which has OneToMany mapping with Roles?
+Different ways to create primary key using Spring Data JPA?
+How to secure all the api request to the server?
+Rest controller vs controller?
+Restemplate vs Webclient?
+What happens when we call a particular service with Rest template when the server is down? How will you handle that?
+Explain circuit breaker with their implementation?
+Have you written any test cases in your project and what are they?
+What is JUint lifecycle?
+How will you configure and build Jenkins in your project?
+Event Binding?
+Two-way Binding?
+How to communicate data between multiple components?
+If the list of data coming from server, how will you list in your template?
+What is routing? Where you have used in your project?
+How will you display list of data with indexing?
+How to build the project in angular and Spring boot?
+Expectations on Mongo DB.
+1.Tell about yourself
+
+2.Tell about your previous Project 
+
+3..Java 8 features
+
+4.abstract vs Interface
+
+5.Static Keyword
+
+6.Types of static  keyword
+
+7.where we need to used Static keyword 
+
+8.Where we used abstract 
+
+9.what are the service you know in aws
+
+10.where your current project deployed 
+
+11.have you worked on frontend
+
+12.what are the difficulties you faced in your project
+
+13..Static method can be override
+
+14.you already have set of employee detail now you can do merge the first name and last name then sort descending order final output will be sort by age greater the 45
+previous project Description
+
+how Component communication happens
+
+how to Protect Angular Application
+
+@SpringBootApplication
+
+Cloud Knowledge
+
+Combine two columns in a table --- write a query
+
+Java 1.8 vs Java 11
+
+Java 1.8 features
+
+StreamAPI problems -> Print name based on salary with greater than > 25000
+
+function calculate(a,b,c){
+
+console(a+b+c);
+
+}
+
+calculate(1,2,3,4)
+
+Core Java Questions 
+
+Why Multiple inheritance is not allowed in java
+
+difference between abstract class and Interface
+
+Mostly logical questions
+
+U want to work with team or Individual which one u prefer
+
+Comparable vs comparator
+
+what map function will do?
+
+Stream API process
+
+Project Issue Facing
+ Tell about yourself .
+difference between spring mvc and springboot
+features of springboot.
+springboot annotations and explain them.
+diff between RestController and controller
+diff between  hibernate and JPA.
+cascade type and their explanation.
+why we use cascade while having save().
+how will you write native query and jpa query in repo.
+ how will you make a class as immutable class.
+write a program to reverse a sentence without using stream.
+how will you handle the exceptions in your project and explain how global exception works.
+what is composite key and how will you use it.
+what is angular.json and properties.json
+what is component and component communication.
+component lifecycle hooks.
+how will you convert your URL from http to https in angular
+hashMap and there internal working
+what is hash collision.
+diff between AngularJS and Angular.
+template and reactive form
+sitution based questions in angular and springboot.
+StreamAPI problems -> Print name of IT dept employee (among many dept) based on salary with greater than > 30000
+features of java 8.
+Microservice Architecture
+Data consistency
+SAGA design pattern
+How will you configure same DB for two microservices? 
+What happens when both microservices try to modify same values from DB?
+API Gateway
+Rest template
+Insertion sorting
+Filter in streams
+concurrent modification exception
+abstract vs interface
+Functional interface
+Why hibernate than JDBC?
+What is composite key? How to configure in hibernate?
+Hibernate mappings
+Interview Questions
+
+String s1="abc";
+String s2="abc";
+
+String s3=new String("abc");
+
+s1==s2
+
+s2==s3
+
+s2.equals(s3)
+
+Justify answers for above program and need to explain how string works internally?
+
+Program to find the frequency of a word?
+Spring vs Spring Boot?
+Explain @SpringBootApplication
+Component
+Stereotype Annotations
+Can we replace @Service with @Component
+How to handle exceptions globally?
+@Transactional 
+Cascade 
+Native Query vs Jpa named query
+How to use composite key in spring boot
+How to achieve DI
+Java 8 features
+Functional Interface
+Abstract vs Interface
+Program to find Employee with salary >50000 with emp id
+Lifecycle Hook
+Component communication
+Authguard
+Routing
+Interceptors
+Template Driven Form vs Reactive Form
+Modules
+Can we have two modules? If yes which module serves first?
+Ts vs Js
+Promises vs Observable
+Interviewer - Satheesh, Satish, Rahul
+coding questions
+1 How to reverse the list of object by using iterator?
+
+2 sort the Employee data using comparator/comparable.
+
+3 Write the code to find all emoloyees from list of employees whose age is greater than 40?
+
+4 given a scenario like there  are many records of employee name , age, salary and id. how will get the data of employees  salaries whose age>30 .
+
+5 Count and display the number of positive, negative and null values in the list
+
+
+6 Given a list of integers, find out all the even numbers exist in the list using Stream functions?
+
+1.Self Intro
+2.Do you have any experience  TTD
+3.Do you have any experience in C and C++
+4.Explain your requirements and show your code implementation part
+5.what are all oops concepts do you have implemented in your code
+6. Pom JUnit Depedency
+7. Say the DiscountType difference
+public enum DiscountType {
+		PERCENTAGE_OFF,
+		AMOUNT_OFF,
+		BUY_TWO_GET_HALF_PRICE
+	}
+8.
+
+
+7.Explain the following method in  DiscountServiceTest
+
+	@Test
+	public void testCalculateDiscountWithValidDiscount() {
+	    Discount discount = new Discount(Discount.DiscountType.PERCENTAGE_OFF, 0.15, LocalDate.now().minusDays(2), LocalDate.now().plusDays(5));
+	    discountService.addDiscount(discount);
+	    double discountAmount = discountService.calculateDiscount(item);
+	    assertEquals(0.15, discountAmount);
+	}
+
+8.Explain the follwoing method OfferServiceTest
+
+ @Test
+    public void testApplyOffersWithApples10PercentDiscountOffer() {
+        // 10% discount on 5 apples is 0.50
+        double expectedTotalCost = (0.65 * 2) + (0.80) + (1.00 * 5) - 0.50;
+        
+        // Update the offer so that it's valid until today
+        offerService.addOffer(new Offer("Apples have a 10% discount", LocalDate.now().minusDays(3),
+                LocalDate.of(LocalDate.now().getYear(), LocalDate.now().getMonth().plus(2), 1)));
+        
+        double actualTotalCost = offerService.applyOffers(basket);
+        
+        assertEquals(expectedTotalCost, actualTotalCost, 0.001);
+    }
+
+9.Explain All modal classes 
+
+10.Explain App.java File
+
+11. why are you not implemented interfaces and Database concepts in your code.
+
+12.Say me the difference between DiscountService and OfferService.
+INTERVIEWER IS UMA MAHESHWARI
+
+1)She explained the role as backend developer.
+
+2)Introduce yourself
+
+3)they have asked about my project
+
+4)collections?which list u have  is used in ur project?
+
+5)java 8 features->functional interface
+
+6)springboot annotations
+
+7)TDD approach
+
+8)junit
+
+9)are u aware of ci/cd
+
+10)concurrent modification
+
+11)customized exceptions
+
+12)which repository u have used?
+
+within 15 min she windup the interview.
+Panel  Members : Uma Maheswari, Hari
+
+ 
+
+ 
+
+Introduce about yourself
+Previous project in ford - with explanation, What issue u  have faced in the project how u resolve it
+I mentioned my previous project as Java1.8 to 11..so they asked why u mention this in ur resume any specific reason
+How u communicate to the Client l...Like On what basis u communicate with the business people
+Abstract vs Interface 
+they one scenario:
+
+ class A
+
+{
+
+public void run(){
+
+}
+
+}
+
+class B extends A {
+
+ 
+
+}
+
+How to invoke the Method run in class B
+
+ 
+
+Is multiple inheritance is possible in Java ? If No What is the replacement
+Why Default method Added in the Interface
+What is the static method ? Where u mentioned in your project
+What is Spring batch
+HashMap - where u used the HashMap in your project, How u add the data in the HapMap -- Explain orally the program
+Inter flow of HashMap
+How u Iterate the Employee List
+Compare the two-object using CompareTo ?? What is the Method to use for comparing Two Objects 
+Spring boot annotation in the project u used 
+What are the necessary step to write testcases
+What is the Mockito framework..
+Concurrent Modification
+What is microservice
+What is the Eureka Server
+Agile methodology
+Optional in Java 1.8
+What is Stream API
+Is it necessary to handle exception handling in the project ? I Said Yes ... They asked what are the ways to handle it
+ How to write custom Exception
+What databases u worked on it..
+And Finally they asked when u rejoined STG after Completing my maternity period.
+
+ 
+
+Note: Questions Fully based only on the backend Only. 
+
+ Panel members: Uma Mageshwari, Hari, Raja
+
+ 
+
+1.Tell me about yourself
+
+2.Tell me about your previous project
+
+3.What kind of issue you have faced
+
+4.What is there in the module from my project
+
+5.Challenges faced in project
+
+6.What you did for performance improvement in project
+
+7.What is your Project architecture
+
+8.What database you used in project
+
+9.Which tool used for deployment
+
+10.How did you tested your project
+
+11..What you did for performance improvement
+
+12.Which repository you used in your project
+
+13.In git have you used dev environment
+
+14.Why you used sonarqube in project
+
+15.How you have handled project issues
+
+16.Mongodb why you used
+
+17.How did you connect frontend to backend
+
+18.What is the security you used in the project
+
+19.How did you generate token
+
+20.What is static method
+
+21.What is Interface
+
+22.What is checked exception and unchecked exception
+
+23.What is TDD
+
+24.Have you worked in agile
+
+25.You have mentioned vehicle fleet and emission test in your project What is it
+
+26.What is migration from your project
+
+27.Rate yourself in developing scratch project
+Interview Panel: Kabilan , Rajkumar
+
+Introduce yourself
+what is the latest springboot version and which version you are using.
+Features of java 8.
+use of default methord in Interface and can we have more than 1 default methord ?
+Advantage of function interface over normal interface.
+use of lamda expression and methord reference.
+optional class and its methords.
+write a program using streams to sort the employee based on there joining date.
+what is singleton and how will you create a singleton class.
+what is mutable and Immutable in java.
+In a final List can we add or remove the values? why
+Have you worked with TDD approch?
+how will you write test cases for in your project.
+what is Mockito 
+can we write test cases without using mockito framework.
+Diff b/w springboot application and microservices.
+how will you communicate b/w 2 microservices.
+what are the ways to communicate b/w microservice other than RestTemplate and fiegn Client.
+can we  connect 2 database in springboot and how??
+what are the configurations need to connect to the DB.
+how can we get all the beans generated in spring ioc container. 
+use of spring actuator and there endpoints.
+Interview Panel: Karthik & Surya
+
+ 
+
+Questions:
+
+ 
+
+1.Tell about yourself.
+
+2.About my project.
+
+3.About the Modules in my project.
+
+4.What is polymorphism
+
+5.What is Method Overloading & Overriding.
+
+6.Wite the output for the below Coding and explain it line by line working.
+
+ 
+
+class Base {
+
+public int add(int a, int b) {
+
+      System.out.println("In the base class");
+
+      return a+b;
+
+}
+
+public static int void print() {
+
+System.out.println("In the Base class");
+
+}
+
+}
+
+class Derived extends Base {
+
+public int add(int a, int b) {
+
+      System.out.println("In the child class");
+
+      return a+b;
+
+}
+
+public static int void print() {
+
+System.out.println("In the Childclass");
+
+}
+
+}
+
+ 
+
+public class Driver {
+
+public static void main(String[]args){
+
+Base obj=new Derived();
+
+System.out.println(obj.add(4,5));
+
+obj.print();
+
+}
+
+}
+
+ 
+
+7.Tell me the Structure of stream in coding.
+
+8.Write the flow example.
+
+9.Write a program for the given input and output.(Input: Ford Technology Service Output: Service 10.Technology Ford) using streams.
+
+11.If a request is hitting in your DB frequently which collection will be used.
+
+12.Write the Structure of Array List.
+
+13.For Index base insertion deletion which collection is used.
+
+14.What is difference between normal forEach and streams forEach.
+
+15.Do you have written any test case in your project.
+
+16.What is Integration testing and unit Testing.
+
+17.How to write the test case.
+
+18.Write the Entire Test case for the Controller class.
+
+19.Write the Entire Test case for Service class.
+
+20.Without use of @SpringbootTest annotation how you do.
+
+21.Without using @Autowired to the service how you communicate.
+
+22.Explain the test case which I have written.
+Hi,
+
+1.Last Project Explanation
+
+2.Explain Project architecture 
+
+3.Last Project Roles and Responsibility
+
+4.Last Project Technology and Vesrions
+
+5.Application Request Flow 
+
+6.Angular Structure 
+
+7.Angular Request Flow
+
+8.Java 8 Features 
+
+9.Lambda expression  
+
+10Lambda expression  advantages 
+
+11.Abraction and Interface
+
+12.Static keyword 
+
+13.Custome Expression 
+Interview Panel: Shailaja , Hari Murugan
+
+ 
+
+Introduce about yourself.
+explain about your project.
+Diff b/w typescript and javascript.
+How typescript is converted to javascript.
+Explain the angular work flow.
+what is directives.
+explain different types of directives.
+How ngFor works and where u have used in your project.
+how to create custom directives.
+can we have a more than one module.ts  file . if yes then how will you boostrap it??
+what is Observables in angular.
+In component class we have observables how can we use it without using subscribe() methord.
+what is promises in angular.
+what is data binding and its types.
+how string interpolation and two way data binding works.
+what is angular.json.
+how will you communicate b/w 2 components. explain where to use @input and @output.
+what are the predefined events present in angular.
+what is pipes and its types.
+explain impure pipe and what are all the default pipes present.. 
+what is view encapsulation.
+how will you do routing in angular.
+how will you handle the http requests in angular.
+what is jwt and how will it works.
+what is AuthGuard and how it works.
+what is the diff b/w eager loading and lazy loading.
+how will you achieve lazy loading in angular.
+how to achieve singleton in angular.
+what are the different types of forms. what is reactive form.
+what is @ngModules
+using css how will you put the div elements at center of the page.
+what is the diff b/w AOP and JIT compiler.
+explain the lifecycle hooks in angular.
+when did the ngOnInit() and ngAfterViewInit() get initialized.
+other than angular what are the frameworks you have used.
+1.Tell me about yourself
+
+2.What is the architecture of your projects.
+
+3.How is your application architecture like deployment details, server, about the tools.
+
+4.Tell me the modules in your application.
+
+5.Which Api you are worked. like rest,soap...
+
+6.Roles and responsibilities in your project.
+
+7.what is immutable and about string.
+
+8.what is HashMap and how it works.
+
+9. Where you configure your spring boot project.
+
+10.where you use static in your project.
+
+11.Why we use static in your project.
+
+12.Transient keyword.
+
+13.How you concat two names and different types of concat in java.
+
+14.Qusetions in Multithread concept.
+
+15.Tell me the angular architecture and flow of angular.
+
+16.Is Exception handling is mandatory.
+
+17.Types of Exception handling and at what scenario exception would be handled.
+
+18.How you get asynchronous call in angular.
+
+19.How you secure your Api.
+
+20.Work flow of JWT.
+
+21.What are the challenges faced in your project.
+
+22.where you configure your angular project.
+
+23.How you import the modules in angular.
+
+24.why we are using Default method in interface
+
+25.What is stream why we go for stream.
+
+26.What are all the methods in Stream
+
+27.How you create a left join in mysql.
+
+28.How to create stored procedures, function calls and explain the code in my sql.
+
+29.What is view in mysql.
+
+30.Why we go for view rather than queries.
+
+31.How you deploy your application.
+
+32.How you configured your jenkins project.
+
+33.Have you worked in agile methodology.
+
+34.Advantages and Disadvantages of view.
+
+35.About Testing.
+
+36.Why we want to do testing.
+
+ Panel Members-Naveena,Gokul
+
+ 
+
+1.Introduce with technical skills.
+
+2.Explain about previous project
+
+3.How to deploy your project in GCP tell the steps from development
+
+4.Where you will deploy your project whether app engine or cloud engine
+
+5.in which format you will deploy whether jar or war? they are expecting docker image
+
+5.Where your services are running in GCP
+
+6.Are you aware of On premises
+
+7.Where will you get the logs in GCP
+
+8.Rate yourself in angular and java out of 10
+
+9.Write a code using stream
+
+consider you have a list having some employee details .merge the first name and last name then filter the
+
+employee by age greater the 45 and print the employee name in descending order
+
+ 
+
+They asked to explain the code which i written
+
+They asked to send the code in the chat
+
+ 
+
+10.I am having list of strings.Write the code to remove duplicate string from the list using stream
+
+ 
+
+They asked to explain the code which i written
+
+They asked to send the code in the chat
+
+ 
+
+After removing the duplicates it will update the original list?
+
+ 
+
+11.Explain about the usage of static keyword and where you will used in your project
+
+12.can we have static variable ? what is the usage of it?
+
+13.Whether the class can be static?
+
+14.Given the code and asked the output
+
+  System.out.println(new String("abc")==new String("abc"));
+
+  System.out.println(new String("abc").equals(new String("abc")));
+
+explain how its work
+
+ 
+
+15.what is the top most in collections hierarchy
+
+16.important features of spring boot
+
+17.have you worked on spring security.i said jwt.then they asked to explain the whole process.
+
+what are the classes we need and what are the annotation you have used in jwt implemantation.What are main
+
+feature we should add to perform role based authentication.
+
+ 
+
+then they move on to angular
+
+ 
+
+18.important features of angular
+
+19.flow from angular to backend
+
+20.what are the ways to communicate between angular and backend.in which file you will write code to communicate with backend
+
+21.which class file you will inject/import to perform get,post,put etc.. in angular
+
+22.They given one logic to write code in angular
+
+  one user having list of vehicles like bike ,car,etc..
+
+  in the ui we have to delete vehicle one by one it should be deleted in the database
+
+  if all the vehicles deleted for the corresponging user means we should delete the user
+
+23.how will you get the response from backend to front end and how you will process it, which library you will use to receive the
+
+response in angular
+
+24.difference between subject and behaviour subject
+
+ 
+
+then they move onto spring boot
+
+ 
+
+25.How to create the respository ..write the code
+
+26.what is @RestRepository
+
+27.explain about @RestController
+
+ 
+
+then they move onto microservice
+
+ 
+
+28.explain about microservice architecture
+
+29.tell me the feature of microservice
+
+30.difference between monolythic and microservice
+
+31.how will you identify the failures in microservice
+
+ 
+
+then move onto GCP
+
+ 
+
+32.have you deployed your microservices in GCP
+
+33.What is service account in GCP
+
+34.How will you configure database with your application in GCP
+
+35.Have you worked on any CI/CD.i said jenkins.
+
+36.They said you didnt worked on GCP right.i said actually i m started learning GCP.
+
+They asked -do you learning from where?
+
+36.how will you write the pipeline script in jenkins.what are the different ways to configure pipeline scripts with our
+
+ project? they are expecting JenkinsFile
+
+37.What are the projects available in jenkins when creating a new job? i said freestyle and pipeline project
+
+Then they asked -do you know about Multibranch project- i said yes
+
+then they asked what is the purpose of creating multibranch project
+
+ 
+
+Then they move onto SQL
+
+ 
+
+33.which database you have worked in your project
+
+34.any nosql database you have worked on
+
+35.
+
+concat the employee firstname and lastname then based on the managerid concat the manager firstname and lastname,
+
+then concat employeefullname and manager fullname put comma between them.all things are available only in one table.there
+
+is no dependent table.
+
+ 
+
+employee table like
+
+ 
+
+empid   ,  firstname,    lastname,   managerid
+
+1       ,   gokul,       hari,       2
+
+2       ,   naveena,     T,          3
+
+3       , vicky,         kumar,      null
+
+ 
+
+expected output
+
+gokul hari,naveena T
+
+naveena T,vicky kumar
+
+vicky kumar
+
+ 
+
+write query for the above scenario.
+
+they didnt given the table structure and expected output. they said theoritically.just for your understanding i given the structure.
+
+ 
+
+ 
+
+ 
+
+36.which design pattern you have worked
+
+37.write the code for creating singleton class and asked to explain the code and send in chat
+
+38.how to get singleton instance in another class -write the code ,asked to explain the code and send in chat
+
+39.how to thread safe the singleton
+
+40.they asked about my previous ford project,client and stand up call details
+
+41.Asked about when u take maternity leave ,when u rejoined,where are you stayed now
+
+42.finally They said this project is very pressure we have to work a lot and should complete task very fast
+
+we are migrating our application to GCP,its a hybrid model,weekly 3 days should come office
+
+43.any questions from your side.
+Interviewer : Harikumar , Uma Maheswari                           Time : 20-25 mins 
+
+Questions from previous Project
+how will may secure API calls
+Stream filter for particular property
+Spring boot filter
+HashMap internal working
+Synchronized block working
+Garbage Collection internal working
+Externally start the Garbage Collector
+Object comparison
+Types of Objects comparison
+Why String is immutable
+How Immutable is achieved
+Thyme leaf MVC Architecture
+Architecture of Old Project
+What is Deadlock
+Difficulties in previous Project
+Difficulties faced in Spring Data JPA
+what is view
+How query is different from View
+what is Outer & inner join
+How will you consume view in Spring boot
+Interview Panel:  Naveena, Gokul.
+
+ 
+
+ Introduce About yourself.
+explain about your project.
+have you worked in junit.
+Are you aware of cloud technology.
+ Rate yourself in angular and java out of 10.
+ I am having list of strings.Write the code to remove duplicate string from the list using stream.
+and explain the code which i written.
+
+Diff b/w hashset and treeset. can we have null value in treeset and hashset.
+explain the use of Arraylist and linkedlist.
+why linkedlist is more efficient for manipulating  the values.
+.Given the code and asked the output
+  System.out.println(new String("abc")==new String("abc"));
+
+  System.out.println(new String("abc").equals(new String("abc")));
+
+explain how its work.
+
+Important features of spring boot.
+what are the spring dependencies you will use in your projects?
+how will you connect DB with your appliation?.
+can we have more the 1 DB for a springboot application.
+what is config server and how it works.
+For different environment how will u set separate properties.
+explain the microservices architecture.
+what is the use of eureka service and API gateway.
+If one of my microservice got failed.how will you bring the service up?
+what is the use of fallback methord and how will it works and where will you give the fallback methord?.
+how will you handle the exception globally in your project and their annotations.
+explain global exception flow in your project theortically.
+how to handle exception in the controller class.
+explain the sterotype annotations. 
+what is @configuration annotation.
+write a program.. how to create a repository and explain the repo.
+what are the Design patterns in springboot
+write a program to create singleton class and explain the code.
+explain prototype design pattern and write a program to create prototype class.
+what is dependency injection in springboot and what are the ways we can inject the dependency.
+what is failfast and failsafe.
+what is concurrent modification exception and class cast exception.
+do you know about swagger and how will it works.
+write a SQL query: in a customer table i am having columns like customerId, customerName, ProductDate...
+based on the productdate i need to find number of records for  everymonth.
+
+consider output like:     month        no. record
+
+                                             1                  913
+
+                                              2                  324
+
+                                              3                  1234
+
+what is the output for the below code:
+ 
+
+try{
+
+   (some code)
+
+}
+
+new RuntimeException("exception Message");
+
+catch(Exception ex) {
+
+        ex.printStack Trace();
+
+}
+
+ 
+
+how will you do dependency injection in angular.
+explain 2 way databinding
+what is property binding and event binding. and expalin the use case. 
+how will you create role based auth in angular.
+how Route Guard will works.
+how will we communicate b/w 2 components which is not in parent child relationship.
+what is the output of below code:
+                function calculate(a,b,c) {
+
+                                                       console.log(a+b+c);
+
+                                             }
+
+                            calculate(1,2,4,5,6);
+
+ 
+
+41. After all finally they told due to time constrains they closing the interview.
+Interviewer : Harikumar , Uma Maheswari                           Time : 30 mins 
+
+Uma has given a brief intro about the position
+
+Tell me about yourself
+How you will secure API
+workflow of jwt and how do you generate token
+HashMap internal working
+what is hash table
+what is synchronized keyword
+What is deadlock situation and how to avoid it
+what is stream and types of stream
+what is stream filter
+How do you communicate from frontend to backend 
+Explain Microservice Architecture
+what is Eureka server
+how do you communicate two microservices
+angular architectural flow
+What are the services you had written in your project
+what is angular routing 
+What is path and what paths have you routed 
+what are the files used in component
+difference between inner join and outer join
+what challenges you have faced in your previous project
+which CI/CD tool you have used in your project
+asked questions from previous project (total working flow)
+Application architecture and server used in your previous project
+Tell me the modules in your project
+connection of database to our project
+flow of your project
+what query's you had written in database
+Have you worked in Agile
+Interview Panel: Palanisamy                             Interview Time : 40 to 45mins
+
+ 
+
+They asked that in the 1st round of interview did they explained about the project and role .
+Explained about there project in a brief.
+Have you worked in angular.
+Have you worked in any product based organization.
+what is JVM?
+what is the use of Garbage Collector.
+what is the difference between abstract class and interface.
+where did you used abstract and interface in your project give a realtime example.
+what are the springboot annotations you have used in your project.
+what are the annotations you will use to handle the exceptions.
+have you worked in agile methodology.
+what are the agile practice you have followed and explain the cerimony you hv followed.
+what are the ways you will test your application.
+what are the common things you will follow in your project for building efficient code.
+write a program to print 1 to 100 numbers.
+write the above program without using loops.
+some logical questions like:
+a) At 3'o clock what is the angle difference between the Minute hand and Hour Hand.
+
+b) At 3.15 what is the angle difference between the Minute hand and Hour Hand.
+
+     18. I am having 8 identical red color balls. looks like same.. but in that 1 ball weight is more than other 7 balls.. And i am having a common weight balancer to measure the weight.. In how many minimum chance i can find the more weighted ball.
+
+ 
+
+19.  Finally they asked about my location and asked whether willing to come to office. 
+
+ 1.Self Intro
+
+2.Project Roles and Responsibilities
+
+3.Skill sets
+
+4.Angular pagination
+
+5.angular Popup button 
+
+6.How to call service from footer 
+
+7.How to achieve Spring security 
+
+8.Joins in mysql
+
+9.Outer joins
+
+10.Store Procedure in mysql 
+Please find the interview question
+
+Panel members- Uma Maheswari, Venkatesh            Time taken- 40mins
+
+Interview Questions:
+1.Which project you worked in ford.how many months you have worked
+2.You are released from ford due to maternity leave right
+3.How many months u took break
+4.when u rejoined in STG
+5.Are you currently working in STG project
+6.where you are currently staying now
+7.Is chennai is your native
+8.Ford planned to return to work, from June 1 onwards,after that there is no hybrid/wfh option. is it ok for you?
+If its ok will proceed technical round
+9.what is Hashmap?
+10.Difference between Hashmap and Treemap?
+11.what is hashset?
+12.Difference between hashset and treeset?
+13.what is queue?
+14.Difference between queue and deque?
+15.What is list?
+16.Difference betweeen Arraylist and Linkedlist?
+
+tell me the advantages of above and which one is better
+
+17.Have you worked in microservice.Explain how will you developed your application using microservices
+18.Have you worked in Rest api.Explain with your project what are the mapping you have used.
+19.what is funtional interface in java what are methods we can write
+20.what is the use of static method
+21.how will you call the static method in another class
+21.what is serialization in java how will you implement serialization in your project.
+22.what is the use of transient keyword
+23.can we use static with transient keyword?
+24.Have you worked in executorservice
+25.what is the purpose of using executorservice
+26.We are having thread then why we are going for executor service
+27.Explain the feature of lambda expression
+28.Given one query to write like employee table having all employee details like name ,salary,age etc...
+employee might having the same name with same age/ different age
+
+we have to filter the employee name and age without duplicate and display the employee name with lowest age
+
+eg:
+Kannika     27
+Kannika     27
+Kannika     28
+Kannika     29
+Mithran     5
+Mithran     5
+Mithran     10
+Mithran     15
+
+output:
+Kannika     27
+Mithran     5
+1.self intro
+
+2.Java 8 features 
+
+3.advantages of java 8 features 
+
+4.How you implement stream API in your application
+
+5.How to display huge data 
+
+6.What are basic annotations in spring boot 
+
+7.Explain Exit project Architect 
+
+8.Roles and Responsibility in exit project  
+Tell me about yourself
+what java 8 features
+what is the method reference
+how can we call the static method using method reference
+what is serialization?
+streams in serialization and Java 8 Stream API are both the same
+what is final, finally, finalize
+ If an exception is raised finally block will be executed or not.
+shall we make the interface as final?
+explain to me the memory in java
+ explain to me about multi-threading 
+what is spring batch
+what is a singleton and prototype
+any other scopes are there
+what is an inversion of control
+how ioc will work internally in the application
+what is a collection
+did you work on javascript
+what are ES6 features
+how can we create a class in javascript
+what is async and await  ( javascript )
+what is arrow function ( javascript )
+what is let, const, var
+did you mySql
+what is the difference between joins and subquery
+Explain me the scenarios where joins will be used and where subquery can we use
+Please find the interview questions
+
+ 
+
+Panel members: Sasikumar, Venkatesh       Time taken:45 mins
+
+ 
+
+1.explain about yourself and your previous project
+
+2.where you are currently staying now
+
+3.Difference between iterator and listiterator
+
+4.What are the different ways to create object
+
+5.what are the methods available in Object class
+
+6.what are the final methods available in Object class
+
+7.What is the use of functional interface
+
+8.how will you implement method reference in your application.what are the types of method reference
+
+9.explain the code to Filter employee salary greater than 50000 using streams
+
+10.what are the annotation you have used in your project
+
+11.How will configure properties for different environment
+
+12.which repository you have used in your project
+
+13.How many services you have created in your project
+
+14.how will communicate between these services
+
+15.how many databases you have tried to connect with your application
+
+16.explain the architecture of angular application
+
+17.How will you communicate front end with backend
+
+18.How will you achieve routing in angular
+
+19.how to configure dev,prod,qa environment in angular
+
+20.How you achive spring security in spring boot
+
+21.Hwo will you generate jwt token
+
+22.how will you validate the token
+
+23.How will you monitor the health of the application
+
+24.what is stored procedure
+
+25.tell me the query how will you create stored procedure in SQL
+
+26.how will you call the stored procedure query in spring boot
+
+27.what are the ways to handle exception in spring boot
+
+28.how will you handle global exception
+
+29.how will you handling error in angular
+
+30.what are the design pattern you have worked
+1.Tell me about yourself
+2.Explain Your Project
+3.Agile Methodology
+4.Scenario based questions in project
+5. Java 8 Features
+6.Explain Collection Architecture
+7. StringBuffer vs String Builder
+8.Checkd vs Unchecked Exceptions
+9.How will you deal Exceptions in Spring Boot
+10.Difference between set and list?
+11.what is queue?
+12.Difference between queue and deque?
+13.What is list?
+14.Difference betweeen Arraylist and Linkedlist?
+15.tell me hibernate features
+16.advantages of HQL queries
+17.JPA vs Hibernate
+18.Have you worked in microservice.Explain how will you developed your application using microservices
+19.Have you worked in Rest api.Explain with your project what are the mapping you have used.
+20.what is funtional interface in java 
+21.what is the use of static method
+22.how will you call the static method in another class
+23.Have you worked in executorservice
+24.what is the purpose of using executorservice
+25.We are having thread then why we are going for executor service
+26.Given one query to write like employee table having all employee details like name ,salary,age etc...
+employee might having the same name with same age/ different age
+we have to filter the employee name and age without duplicate and display the employee name with lowest age
+1. self Intro
+2. project Explaination
+3.spring boot application flow 
+4.tell me spring boot Starters implemented in your project
+5.Autowiring
+6.where you maintain your application configuration Details
+7.java 8 vs Java 11 features
+8.Spring Boot Actuators
+9.what is interpolation
+10.what is routing
+11.how will you connect spring boot with angular
+12.explain authguard concept
+13.DML queries
+14.what is join
+15.write a query to delete a duplicate records from table.
+16.write a query to get data from employee and department table using inner right join
+17.Do you have knowledge in jenkins or teckton
+18.Do you have experience in GCP
+19.Do you have experience in oracle and PL/SQL queries.
+20.Angualr Vs JavaScript
+Please find the interview questions
+
+ 
+
+Panel members: Achyuthan, Raja, Duraisamy                                  Time taken: 50 mins
+
+ 
+
+1.Inroduce yourself quickly with technical,project backround
+
+2.Do you have experience in GCP
+
+3.where will you deploy your project in GCP whether app engine,cloud run?
+
+4.which CI/CD tool you have worked on
+
+5.Have you written any pipeline scripts in Jenkins to build job
+
+6.tell me what are the java concepts you have used in your project
+
+7.what is multithreading in java.what are the ways to achieve multithreading
+
+8.when the thread starts running?
+
+9.where the created thread will be stored
+
+10.what are different states in lifecycle of thread
+
+11.Explain about collection framework
+
+12.which is faster collection in java
+
+13.difference between arraylist and linked list
+
+14.what are the list you have used in your project
+
+15.difference between arraylist and linked list
+
+16.Can we store object in ArrayList?
+
+17.Can you able to store Map in list
+
+18.How will you convert map to list
+
+19.explain about the singleton design pattern
+
+20.difference between static and transient
+
+21.write the spring boot code for fetch the employee detail by using employee id from the employee table.
+
+full flow from controller to Database(controller,service,repository,entity,mapping)
+
+22.what are the dependency you should add to create the spring boot application
+
+23.which Dependency you will add to connect with database,repository,and for unit testing
+
+24.Have you worked in spring security.i said jwt.They are expecting more in OAuth 2
+
+25.difference between @RestController and @Controller
+
+26.how will you make one to one relationship between two tables
+
+27.what is the purpose of using @Autowired
+
+28.How the bean will be created
+
+29.whether the bean will be created while starting server or when you requested
+
+30.what is eager loading and lazy loading
+
+31.how will you configure multiple environment in spring boot
+
+32.How will you achive lazy loading
+
+33.i am having a password file. i need to update password three months once.without deploying, building job i need to fetch latest updation so where i have to maintain a file?
+
+34.what is config server?
+
+35.if you are doing changes in one of method in one file in ,the same file i am also doing changes and commited my code in develop.how will you update your code and fixing the conflict
+
+36.have you worked in tekton,sonarqube,github
+
+37.how will you deploy your project for multiple region
+Panel members- Jithin,Murali krishna                  Time taken-30 mins
+
+ 
+
+Interview questions:
+
+ 
+
+Dont write a program,just tell theoritically how will you do it
+
+1.Java Program to Find the Occurrence of Words
+
+Given sentence as : Alice is girl and Bob is boy
+
+Output: {Bob=1, Alice=1, and=1, is=2, girl=1, boy=1}
+
+2.How will you Remove duplicates from a given string
+
+Given string: Java
+
+3.Find the second-highest number in an ArrayList
+
+Given List: [11, 67, 88, 53, 2, 72]
+
+4.Difference between constructor and method
+
+5.what is method overloading.Is it possible the return type of method overloading will be the different ?
+
+6.what are the webservices you have worked
+
+7.Tell me the flow of getting ,saving ,updating,deleting student details using rest api
+
+8.Do you have knowledge in cloud
+
+9.which tool you have used for CI/CD
+
+10.how will you deploy your project in jenkins
+
+11.what are the http status code you know
+
+12.what is @pathvariable how will you implement it
+
+13.which project you are currently working in STG
+
+14.how will you create the component
+
+15.difference between angular and package json
+
+16.how will you run the angular application
+
+17.how will you deploy your angular project
+Panel members: Satheesh,Suresh            Time taken : 35 mins
+
+ 
+
+Please find the interview questions 
+
+ 
+
+1.what are the spring boot annotation you have used in your project
+
+2.explain the purpose of using @Enableautoconfiguration
+
+3.i want to disable the @configuration annotaion how will you do it
+
+4.how will you connect multiple database in spring boot
+
+5.i want to increase the database memory .in spring boot how will you do it
+
+6.what are the ways to create spring boot project
+
+7.how will you add dependency in your project using IDE?
+
+8.what is trigger in SQL
+
+9.diff between delete and truncate
+
+10.how will you create stored procedure
+
+11.how will you find the root cause if any exception occured while executing SQL query
+
+12.what are the constraints you aware of
+
+13.explain the full flow of rest api endpoints for GET and POST
+
+14.diff between @Resquestbody and @requestparam
+
+15.how will you store image in database
+
+16.how will you get the image in spring boot
+
+17.what are the annotations you will use to process the image
+
+18.How will you process pdf file in spring boot
+
+19.difference between SQL and H2 database
+Panel members- Jithin,Ajay Goel                  Time taken-28 mins
+
+ 
+
+ What is your overall Experience?
+ Willing to work from office?
+ Areas of Expertise
+ Java Program to Find the Occurrence of Words
+Given sentence as : You will everything in your life that you want
+
+Output: {You =2, will =1, everything =1, in =1, your =1, life=1,that=1,want=1}
+
+ 
+
+   5. Given a list of integers ,find the second highest number
+
+   6. Explain method overloading & explain why we can't change the return Type
+
+   7. Build a Spring boot application & explain the end-to-end flow
+
+   8. How will you handle exceptions?
+
+   9. How will call external API's (3rd Party API's) 
+
+      11. Alternative for Rest Template? 
+
+       12. what are the http status code you know?
+
+   13. Have you have worked in GCP?
+
+       14. how will you run the angular application?
+
+       15. What is component in Angular?
+
+   16. How will you navigate between components? 
+
+       17. Command for creating components?
+
+       18.  Deployment Process of your Application
+
+       19.  Whether deployment is Automated or Manual?
+
+   19.  How will you trigger the deployment?
+
+       20. What is CI/CD Tools you have used?
+
+    21. What is your last working day?
+
+    22. Will you be able to come to office?
+1. Introduce yourself with all the technologies you have used (versions included)
+
+2.(Rate yourself in angular)
+
+3. What is the most complex thing you did in angular /where do you face difficulty while working in angular
+
+4. Forms in angular
+
+5. Scenario where you are using Reactive forms and you need to create now employee in database total flow of client server communication (note pad)
+
+6. Form builder
+
+7. Observable vs promise 
+
+8. Where do you use observables (note pad)
+
+9. Subjects and what are all the subjects you used and their usage scenario
+
+10. Async and behavioral subject difference
+
+11. What are pipes where do we use them and how to make custom one and a scenario where i used one
+
+12. wWhat are directives where do we use them and how to make custom one and a scenario where i used one
+
+13. Class , style binding and What is interpolation
+
+14. Parent child communication(note pad)
+
+15. Componet communication
+
+16. Dependency injection and services in angular
+
+17. Write code to a reactive form (ts,html)
+
+(Rate yourself in java)
+
+18. What is JIT and AOT?
+
+19. String buffer, string builder, string difference
+
+20. Tell me some string methods
+
+21. Difference between string literal and string object
+
+22. Tell me about Collections framework
+
+23. Declare a map (note pad)
+
+24. There is an array of numbers write a method to determine Permutations and combinations of that array
+
+25. No of occurences of a all the digits in an array of numbers(using streams and not declaring separate variable)
+
+26. (Rate yourself in Spring boot)
+
+27. Tell me some of the annotations in spring boot
+
+28. Can we have separate configuration file
+
+29. Dependency injection in spring boot
+
+30. What is hashcode in java
+
+31. Comparing two objects in java
+
+32. Comparable and compare to
+
+33. Do we have to override hash code for every entity to be able to compare them?
+
+34.what is peek , flat map in difference
+
+35.what is internal function map,list,set,arraylist,hashmap,hashtable
+
+36.swap two strings without using third variable(write in note pad)
+
+37.what is difference between while loop and for loop
+
+38. what is difference between collection and collections
+
+39.what is the grouping by method in collections
+
+40. what is internal function in @springbootapplication
+
+41.what is difference between @configuration and @component
+42.how beans are created in springboot
+
+43.what is use of @autowired
+
+44.what is IOC
+
+45.how you configure database in spring boot?
+
+46.have work with Gradle
+
+47. you different profiles in spring boot how to active or run with  particular profile
+
+48.what is @Entity
+
+49.what are is stereotype annotations in spring boot
+
+50. reverse a string with using while loop
+
+51.what is method reference
+
+52. write the code to convert date to string and string to date using simple date formatter
+
+53.From employee list takeout the names and group by the age like below 30 , below 40 using java 8 streams (note pad)
+
+54.what is https request
+
+55. in spring boot how you configure https?
+
+56.what are all method available interceptor in spring boot?
+
+57. explain me about status code
+
+58.what is a exception class
+
+59.write a own exception class
+
+60. what is the use of try catch block
+1. Tell me about Yourself Technically and your projects
+
+2. What you have worked in Gcp explain the flow
+
+3.what is rest template ?
+
+4.How you consume the data and publish the data in both backend to front end
+
+5. Having one file from back end how to consume the data in front end and how to map this data in the html dom element with one field how to map this in web angularUi and how to deploy explain with flow
+
+6.have you worked in Javasript
+
+7.what are the default one in angular.json file once created your angular application
+
+8. decorators in angular
+
+9. spring batch explain with  flow
+
+10.I have one inputfield in UI if i write some thing there i need to get the same in the footer (two waydatabinding[(ngModel)]
+
+11.Explain the tekton working flow(i was mentioned in my resume)
+
+12.what are the object methods in java
+
+13 what are the final methods available in object class
+
+14.class A{
+
+int a=10;
+
+b=20;
+
+ void m1()
+
+{
+
+}
+
+void m2()
+
+{
+
+}
+
+}
+
+class B extends A{
+
+int a=50;
+
+int b=100;
+
+void m1()
+
+{
+
+}
+
+void m2()
+
+{
+
+}
+
+public static void main(String[] args)
+
+{
+
+A  a1=new B();
+
+System.out.println(a1.a);
+
+System.out.println(a1.b);
+
+System.out.println(a1.m1());
+
+System.out.println(a1.m2());
+
+}}
+
+15.question on my Previous Ford project
+
+16.How to  sort the Id and filter the salary >50000 using streams in java and get the Id as output
+Panel : Aluru Sasikumar, Venkateswara Rao                           Time : 45mins
+
+ 
+
+  How will you process the flat file and process to DB?
+
+  what is the class used to read flat file?
+
+  Diff b/w list iterator vs iterator?
+
+  How will you iterate the list iterator in reverse order?
+
+  HashMap vs concurrent HashMap
+
+  What's the algorithm(Data structure) used in comparable interface?
+
+  How will you read a file from SFTP ?
+
+  How will you write a file to SFTP ?
+
+  Diff b/w HashMap vs concurrent HashMap?
+
+  How will you read flat file from source and write in xlsx? 
+
+  How many types of synchronization is there?
+
+  Diff b/w block & method synchronization?
+
+  How will you say that application. Properties details are safe?
+
+  how many ways of creating a thread?
+
+  methods available in object class?
+
+  how many ways of creating object?
+
+  How will you connect multiple databases?
+
+  You need to post records from two table of the same application of different databases to another source how will you achieve it?
+
+  what are testing tools that you have used?
+
+  How will you monitor the health of the application?
+
+  Diff b/w abstract class vs interface?
+
+  How will you implement role-based authentication?
+
+  How will you decrypt Jwt token?
+
+  How will you post records from one system to another system and assure that is secured?
+
+  How will you create a Jwt token?
+
+  How secured authentication is happened b/w your application and payment gateway?(Previous project)
+
+  Have you worked in production support?
+
+  what is the identifier of the variables in abstract class and in interface(either final /not)?
+
+  Are the methods in object class are final?
+
+  Diff b/w synchronized HashMap vs concurrent HashMap?
+
+  concurrent HashMap internal working?
+
+  How will you sort in streams using a particular member variable?
+
+  How will you filter in streams?
+
+ 
+
+  
+
+  How will you achieve filtering in .ts in angular?
+
+  How will you consume a service in angular?
+
+  How will you a post(display) a form to user?
+
+  Diff b/w serve vs build?
+
+  How will you deploy the angular application?
+
+
+
+
+  What are deploying procedure that you have followed?
+
+  How will you step up stages in Jenkins ?
+
+  How will you configure repo in Jenkins?
+
+  How will you create credentials in Jenkins and make sure it is secured?
+
+  How will you handle production failure and bring it up in 2 hrs?
+
+  what are the remedies followed to bring up a application after production failure explain in detail?  
+
+
+
+  Willing to learn new technologies like AI,ML,python and shell scripting?
+Panel : Aluru Sasikumar, Venkateswara Rao                           Time : 35mins
+
+ 
+
+1.Introduce yourself
+
+2.How many springboot applications you have worked on
+
+3.How will you secure api
+
+4.how will you create jwt token
+
+5.What are the inputs you have given in jwt token header
+
+6.what are the string objects you have passed in payload in jwt?
+
+7.what is aggregation and composition?
+
+8.what  is rest template?
+
+9.questions on swager and postman
+
+10.abstract vs interface
+
+11.can we extend multiple classes
+
+12.How will you monitor health of your application
+
+13.How will you create custom exception
+
+14.What is functional interface?
+
+15.How will you deploy your application?
+
+16.Have you written any complex queries
+
+17.Which ORM you have worked on
+
+18.How will you implement role-based authentication?
+
+19.What is stored procedure?
+
+20.Have you written any unit test cases
+
+21.Tell how will write unit test case for getting employees
+
+22.How will you inject dependencies in springboot without using @autowired
+
+ 
+
+do you know any scripting languages like python, shell
+Interview Questons:
+1.Introduce about yourself.
+2.About the project
+3.Enhacement, what you have done in the project? 
+4.Spring:
+  a.Lifecycle of Spring mvc
+  b.what are all the annotation you have used in springboot project.
+  c.Diff between Rest controller vs Controller
+  d.Springboot profiles 
+  e.Spring batch
+5.Struts vs Sprinboot
+6.Collections 
+7.Streams
+8.Microservice 
+9.Constraints 
+10.primary key and Foreign Key
+11.Joins
+12.ORM
+13.@Transactional
+14.Splunk tool
+15.oops concepts
+16.Exception handling in oops
+17.Rest api
+18.Dynaprop
+Interviewer - Satheesh,  Rahul
+AngularJs vs Angular
+Template driven Form vs Reactive Form
+Interceptor
+Service in angular
+Component Communication
+Authguard
+How to Achieve role Based Authentication
+RestController vs Controller
+How to handle global level exceptions in springboot
+how to reverse string in sentence using java 8
+how to reverese a word in sentence using java 8
+How to count frequency in a string using java 8
+If we have company and employee tables, and that is connectd with some id, How to get the two tables data using JPA(named Query)
+java 8 features
+What is functional interfaces
+Give some example for functional interfaces
+ Please find the questions below:
+
+Difference between 
+long num =1;
+
+System.out.println(num); and
+
+
+Long num =1;
+
+System.out.println(num);
+
+   2. Stream<String> s1 = {"1","2","3"};
+
+     Stream<String> s2 = {"3","4","5"};
+
+     
+
+     How will you return {1,2,3,4,5} using streams.
+
+ 
+
+   3. Henrys Grocery problem:
+
+      a. How will you approach this problem?
+
+      b. How will you structure your code?
+
+      c. Based on existing code other questions were asked.
+
+1.  AOT vs JIT compiler, Now I days Which compiler we are using?
+
+2. What is Interceptors
+
+3. What is Directives
+
+4. How to create Custom Directives
+
+5.@decorator
+
+6.Parent child communication vs child parent communication
+
+7. Event emitter
+
+8.How to secure Angular applications
+
+9. Modules
+
+10. Can we create multiple modules in angular project
+
+11.what is angular.json
+
+12. package.json vs package.lock.json
+
+13.What is typescript
+
+14. why we are using typescript instead of javascript
+
+15. Which server is used in angular applications
+
+16.what is observables
+
+17. What is promises
+
+18. what is rxJs Library and what are all the rxjs methods
+
+19. How to create responsive page
+
+20. How to align text in center
+
+22.difference between <table>,<div>,<span>
+
+23.Why we are using alt attribute in <image>
+
+24.What is Media Query
+
+25. How to achieve rolebased authentication in angular
+
+26.How to achieve dependency injection in angular
+
+27.difference between let vs var vs const
+
+28.How to handle exceptions in angular
+
+30. Event binding
+
+31.Difference between abstract class and interface
+
+32. What is stream
+
+33. What is @bean
+
+34.@controller vs @restcontroller
+
+35.@controlleradvice vs @restcontrolleradvice
+
+36.What is Rest API
+
+37. What are the HTTP methods
+
+38. Spring vs SpringBoot
+
+39. What are the advantages of springboot
+
+40. How to achieve API documentation in springboot
+
+41. How to achieve dependency injection in springboot
+
+42. How to add dependencies in your project
+
+43.What is @repository
+
+44. Spring security
+
+44. Explain about JWT
+
+45. When you will get Jwt token
+
+46. What is monolithic architecture
+
+47. What is microservices
+
+48. How to achieve role based authentication
+
+49. What is stream
+
+50. What is filter in java 8
+
+51. How to upload image in spring boot
+
+52. how to authenticate username and password without jwt using springboot
+
+53.What is integration testing
+
+54.What is unit testing
+
+55.How to enable jetty server in our project
+
+56.springextension vs mockitoextension
+
+57.What is @springboottest
+
+58.@injectmocks
+
+59.@test
+
+60.How to write test cases for reposiory layer
+
+62.Map vs Flatmap
+
+63.LinkedList vs ArrayList
+
+64.Exception Handling
+
+65. try with resource
+
+66. How will you handle global level exception in springboot project
+
+67.What is default methods
+
+68. What are the HTTP methods
+
+69. How to write crud operations in you project
+
+70.Putmapping vs Patchmapping
+
+71.Springsecurity filterchain
+
+72.What is Optional? Why we are using Optional? Which scenario we can use Optional?
+
+73.How to disable object creation  in our model class
+
+74. How to add our code into jenkins and how to build ?
+
+75. What is base64
+1. About my project
+
+2. What is Interceptors
+
+3. What is Directives
+
+4. What is swagger
+
+5.@decorator
+
+6.Parent child communication vs child parent communication
+
+7. Event emitter
+
+8.How to secure Angular applications
+
+9. NgModules
+
+10. Can we create multiple modules in angular project
+
+11.what is angular.json
+
+12. Typescript vs javascript
+
+13.What is typescript
+
+14. why we are using typescript instead of javascript
+
+15. Which server is used in angular applications
+
+16.what is observables
+
+17. What is promises
+
+18. what is rxJs Library and what are all the rxjs methods
+
+19. How to create responsive page
+
+20. What is Optional?
+
+22.what is subject
+
+23.subject vs behaviour subject
+
+24.What is Media Query
+
+25. How to achieve rolebased authentication in angular
+
+26.How to achieve dependency injection in angular
+
+27.@InjectMocks
+
+28.How to handle exceptions in angular
+
+30. What are the HTTP methods
+
+31.Difference between abstract class and interface
+
+32. What is stream
+
+33. springextension vs mockitoextension
+
+34.@controller vs @restcontroller
+
+35. try with resource
+
+36.What is Rest API
+
+37. What are the HTTP methods
+
+38. Spring vs SpringBoot
+
+39. What are the advantages of springboot
+
+40. How to achieve API documentation in springboot
+
+41. How to achieve dependency injection in springboot
+
+42. How to add dependencies in your project
+
+43.What is @repository
+
+44. Spring security
+
+45. When you will get Jwt token
+
+46. Exception Handling
+
+47. LinkedList vs ArrayList
+
+48. How to achieve role based authentication
+
+49. What is stream
+
+50.Map vs Flatmap
+
+51. How to write test cases for reposiory layer
+
+52. how to authenticate username and password without jwt using springboot
+
+53.What is integration testing
+
+54.What is unit testing
+
+55.@injectmocks
+
+56. AOT vs JIT compiler
+
+57.Explain about JWT
+
+58.What is spring batch
+
+59.How to achieve spring batch
+
+60.What is pipes
+Interview Questions:
+1.Tell me about yourself 
+2.About your Project
+
+3.Difference between 
+   long num =1;
+
+   System.out.println(num); and
+
+   Long num =1;
+
+   System.out.println(num);
+
+
+4. Stream<String> s1 = {"1","2","3"};
+
+   Stream<String> s2 = {"3","4","5"};
+
+   How will you return {1,2,3,4,5} using streams.
+
+5. Henrys Grocery problem:
+
+   a. How will you approach this problem?
+
+   b. How will you structure your code?
+
+   c. Based on existing code other questions were asked.
+   
+ 6.Based on the project:
+   a.Software development Life cycle process for the project
+   
+   b.CI/CD Pipeline 
+   
+   c.Have you used Global Exception and custom Exception in your project (give me some example in your project)
+   
+   d.Git
+   
+   e.monolithic vs Microservice
+   
+   f.Which  Architecture you are following in your project (and explain the architecture).
+   
+   g.agile methodology 
+   
+   h.features in java1.8
+   
+   i.annotations you have used in springboot project.
+   
+   
+7.package.com.ford.mapping-service;
+
+
+  public class String Project{
+  static void main(String[10] args){
+  String s1="javac";
+ System.out.println(s1);
+ }
+ }
+ 
+ is this class can print the variable ,if it is not why.
+ 
+8.Front end backend connection in your project.
+1,About your Project
+
+2,long num =1;
+System.out.println(num);
+
+Long num =1;
+System.out.println(num);
+
+3,Stream<String> s1 = {"1","2","3"};
+Stream<String> s2 = {"3","4","5"};
+How will you return {1,2,3,4,5} using streams.
+
+4,Henrys Grocery problem:
+How will you approach this problem?
+How will you structure your code?
+Based on existing code other questions were 
+
+5,About sonar scan issues.
+
+6,package.com.ford.mapping-service;
+  public class String Project{
+  static void main(String[10] args){
+  String s1="javac";
+ System.out.println(s1);
+ }}
+
+7,Custom Exception in your project.
+
+8,Jenkins
+
+9,Which  Architecture you are following in your project (and explain the architecture).
+
+10,agile methodology 
+
+11,features in java1.8
+
+12,deployment Explanation
+
+13,about mockito,git 
+
+14,if you deployed in production but you have found some bug then what you will do?
+1.Self Introduction
+
+2.Project Explanation
+
+3.Henrys Grocery problem:
+
+      a. How will you approach this problem?
+
+      b. How will you structure your code?
+
+      c. Based on existing code other questions were asked.
+
+4.Are you worked any design pattern in Frontend 
+
+5.Do you have experience in Microservices
+Tell me about yourself
+Roles and responsibilities in the project
+Issues faced in the project (Angular part, Spring boot part, Database Part)
+How you rectified those issues
+Types of statements used in JDBC (Statement vs Prepared Statement vs Callable Statement)
+Sort employee objects based on age
+Comparable vs Comparator
+Have you worked in deployment activities ?
+Have you worked in Cloud ?
+In which basis you refactor a complex code and how ?
+What are all design patterns you know ?
+Explain some design patterns used in framework ?
+Have you used abstract inside your project anywhere ?
+Tel me about your self, projects, your role in project
+if user send same values in form contineously we can restrict that form
+what annotations you used in spring boot 
+Difference between @RequestMapping and @GetMapping
+GCP Vm instances 
+GCP Batch jobs
+Git hub
+Jenkins pipeline
+have you worked with rally 
+how we can deploy an appplication
+triggers in database sql 
+queries in sql 
+difference between varchar and varchar true
+what is automation in your project
+1.Tell me about yourself
+
+2.What are all the version you have used in your project?
+
+3.What is Java 8 features
+
+4.Why we are going for lamda expressions?
+
+5.what are the version used in angular?
+
+6.What is collection?
+
+7.We are using list and we are not going for set why?
+
+8.Working of hashmap
+
+9.Is it allow the null key and null values
+
+10.Is it allow multiple keys with same values
+
+11.How to use stream and get the values
+
+12.Why we are going for optional
+
+13.Have you worked on jpa and hibernate
+
+14.Why we are going for springboot?
+
+15.How springboot is working?
+
+16.Springboot flow
+
+17.Which ide used for backend
+
+18.what is the entry point of springboot
+
+19.What is componentscan
+
+20.What is the server you have used
+
+21.What is microserver server you used
+
+22.If i need to change from tomcat to jetty what you need to use
+
+23.Subqueries in sql
+
+24.Why we are using get,put,post
+
+25.@springboot application uses
+
+26.Why we are going for angular instead of other ui
+
+27.angular workflow
+
+28.sql query to write for customer id ,firstname,lastname in one table department in another table we have to get the value based on customer table
+
+28.same in Jpa query
+
+29.what is angular js
+
+30.what is single page application
+
+31.What is Directives
+
+32.Have you worked in agile methodologies
+1.Tell me about yourself
+
+2.What are all the version you have used in your project?
+
+3.What is Java 8 features
+
+4.Why we are going for lamda expressions?
+
+5.what are the version used in angular?
+
+6.What is collection?
+
+7.What is use of List,set and Hashmap
+
+8.Working of hashmap
+
+9.Is it allow the null key and null values
+
+10.Is it allow multiple keys with same values
+
+11.How to use stream and get the values
+
+12.Why we are going for optional
+
+13.Have you worked on jpa and hibernate
+
+14.Why we are going for springboot?
+
+15.How springboot is working?
+
+16.Springboot flow
+
+17.Which ide used for backend
+
+18.what is the entry point of springboot
+
+19.What is componentscan
+
+24.Why we are using get,put,post
+
+25.@springboot application uses
+
+26.Why we are going for angular instead of other ui
+
+27.angular workflow
+
+28.sql query to write for customer id ,firstname,lastname in one table department in another table we have to get the value based on customer table
+
+29.same in Jpa query
+
+30.what is angular js
+
+31.Have you worked in agile methodologies
+interview Taken by:Renugadevi Dhivakaran
+1.Tell me about yourself Technically
+2.Have you worked on any java 8 features
+3.explain your handson experience in any one java 8 features 
+4.Have you worked on collection framework? where you are using list,set and map in collections ?why?
+5.what is sreams?Having one attribute name i need to fetch the data starts with "a"?coding in notepad
+6.what is treeset and hashset?what is the purpose of this two?
+7.in hashset and treeset which one is working slowly?what is the reason explain it?
+8.is hashmap allow null key and null values?explain with example?
+9.what will happen if i am giving the multiple values to a same key in hashmap what is the result?
+10.interal woking of hashmap
+11.what is @componentscan?
+12.what is the entry point of a spring bootapplication?
+13.have you worked on hibernate?
+14.i have one employee tabel i need to map the employee tabel with department table how can i map with step by step process?
+15.how do you synchronized list and set in collections?
+16.what is synchronized ?have you worked on any multithreading
+17.scenario question on multithreading?
+18.have you worked on any front end?which one you prefer?
+19.which angular is called a single page application framework?
+20.which version of angular you have used in your project?
+21.what is directives? types of directives 
+1.Tell me about yourself
+
+2.What are all the version you have used in your project?
+
+3.What is Java 8 features?
+
+4.Why we are going for lamda expressions?
+
+5.what are the version used in angular?
+
+6.What is collection?
+
+7.What is use of List,set and map 
+
+8.Working of hashmap
+
+9.Is it allow the null key and null values
+
+10.How to use stream and get the values
+
+11.Why we are going for optional
+
+12.Have you worked on jpa and hibernate
+
+13.mapping concept.
+
+14.Why we are going for springboot?
+
+15.scenario based questions in hashmap,giving 2 hashmap records like key and value,by giving repeated keys like x in the same record in the sense ,in the output which one is reflected as output first record or second record.
+
+16.Which ide used for backend
+
+17.what is the entry point of springboot
+
+18.which embedded server u have used in your project
+
+19.how to add another dependency
+
+20.Why we are using get,put,post
+
+21.@springboot application uses
+
+22.Why we are going for angular instead of other ui
+
+23.angular workflow
+
+24.sql query for asking with in two tables like employee and department in joins concepts.
+
+25.what is single page application.
+
+26.what is directives
+
+27.Have you worked in agile methodologies
+1.Tell me about yourself
+
+2.What are all the version you have used in your project?
+
+3.What is Java 8 features
+
+4.Why we are going for lamda expressions?
+
+5.what are the version used in angular?
+
+6.What is collection?
+
+7.What is use of List,set and Hashmap
+
+8.Working of hashmap
+
+9.Is it allow the null key and null values
+
+10.Is it allow multiple keys with same values
+
+11.How to use stream and get the values
+
+12.Why we are going for optional
+
+13.Have you worked on jpa and hibernate
+
+14.Why we are going for springboot?
+
+15.How springboot is working?
+
+16.Springboot flow
+
+17.Which ide used for backend
+
+18.what is the entry point of springboot
+
+19.What is componentscan
+
+24.Why we are using get,put,post
+
+25.@springboot application uses
+
+26.Why we are going for angular instead of other ui
+
+27.angular workflow
+
+28.sql query to write for customer id ,firstname,lastname in one table department in another table we have to get the value based on customer table
+
+29.same in Jpa query
+
+30.what is angular js
+
+31.Have you worked in agile methodologies
+
+32.Mapping annotations
+
+33.what is directives
+
+34.What are all the directives
+
+35. How to create custom directives
+
+36. What is modules in angular
+
+35.Hashset vs treeset
+
+36. Which one is faster? Why
+
+37.What is embedded server in springboot? Why?
+1.Self Introduction
+
+2.Rate your Skill 
+
+3.Are you okay with WFH
+
+4.Why you are leaving your last project
+
+5.What you are working in your last  Project
+
+6.How you find the route cause of the issue
+
+7.What difficulty you faced in your projects
+
+8.Where you deployed your docker image
+
+9.How do you create your docker iamge
+
+10.How you passed data from database using spring or template  
+Panel : Murali Krishna Rao
+
+ 
+
+Java:
+
+ 
+
+1. Java 8 features
+
+2. Write a program to reverse a string
+
+3. Write a program to find duplicates in a list of elements.
+
+4. Write a program to find the maximum value in a list of elements.
+
+5. What is Concurrent hashmap. When do we use Concurrent hashmap?
+
+6. List the collections you have used.
+
+7. When do we use Hashmap?
+
+8. Why Hashmap is not in Collection?
+
+9. Which Collection is faster?
+
+10. Internal working of Hashmap
+
+11. Why is equals method used in Hashmap?
+
+12. Functional interface
+
+13. What are the Built-in functional interfaces?
+
+ 
+
+Rest API:
+
+ 
+
+14. what are the Http methods?
+
+15. Difference between Put and post.
+
+16. how will you communicate between microservices?
+
+ 
+
+Angular:
+
+ 
+
+17. Which version of angular did you work on?
+
+17. Where will we have the component declarations?
+
+18. Difference between findfirst and findany.
+
+19. Angular components
+
+20. What is pipe?
+
+21. routing in angular?
+
+ 
+
+Jenkins:
+
+ 
+
+22. What is CI?
+
+23. What can you intergrate with jenkins?
+
+ 
+
+Cloud: 
+
+24. Have you worked in Security in your project?
+
+25. Which services have you worked on?
+
+26. Architecture of your project.
+
+27. What is API gateway?
+
+28. How did you debug your application?
+
+29. What are the security measure to take before migrating to cloud?
+
+30. How did you connect your services with spring boot
+
+31. What are the best practices for security in AWS?
+Introduce your self
+
+what is indexing in sql 
+difference between inner join and left join
+in which area or what place are you worked in sql 
+what is normalization in SQL
+
+have you worked in unit testing
+what is @Mock
+how you worked in unit testing
+
+what is @RestCOntroller
+is possible multiple inheritance in java
+difference between abstract and interface
+what is static keyword in java
+what is @RequestBody,RequestParam,Path variable
+what is profile in java
+if a performance issue is in application what you do to troubleshoot that thing
+
+What is component
+What are different ways of binding
+what steps you followed to create a page
+
+have you worked in any CI/CD tools 
+have you worked in any agile methedology tools
+what's your role in rally
+Angular:
+
+1.Difference between component and module?
+
+2.can we create multiple modules?
+
+3.For module which decorator we use?
+
+4.In Metadata what we are things available?
+
+5.we have a company component and Employe component how both are connect independently?
+
+6.Above same question  by using parent and child how it connect?
+
+ 
+
+Java8:
+
+1.java 8 features?
+
+2.we have emp table with id, name, department wap to filter empName based on id.
+
+ 
+
+Collection:
+
+1.Difference between List and Set?
+
+2.Need Insertion  and ascending Order  which collection we used?
+
+Ans: Tree set. It contains unique elements .The access and retrieval time of tree set is quite fast and the elements in tree set stored in ascending order.
+
+ 
+
+Pannel: Rahul Kamani, Sateesh Kumar
+
+
+Write a program to find the occurrence of characters in a string.
+How does a microservice architecture work?
+What is Eureka used for?
+How will you add security using spring cloud.
+What is serialization. Why do we need it and how will you implement it.
+Explain a basic CRUD project (as full stack).
+Global Exception handler
+What happens when we have multiple cache blocks?
+Explain the connection from frontend to backend to database.
+How will the data get updated in cache when there is a change from frontend
+What happens when we try to add a column in SQL and NoSQL.
+Difference between SQL and NoSQL.
+Why would you prefer NoSQL over SQL?
+ What can be stored in NoSQL?
+What will happen if the deserialized object is not the expected.
+static and final keyword.
+Why do we not use a serverless model everywhere?
+What are the http methods?
+What is caching? Which caching tools have you used?
+What is difference between SQL Blob and NoSQL storage of images/files?
+1. Introduce yourself with technologies you know and what are the technologies you have used.
+2. directives
+3. components
+4. observable and promise
+5. communication between components
+6. how you will validate a service (AuthGuard)
+7. anuglar material
+8. routes
+9. Have you used angular CLI
+9. features of java 8
+10. interface and functional interface
+11. stream API (scenario questions)
+12. collections
+13. Map (scenario question) -> convert list to map using stream
+14. why collection is framework
+15. which version of springboot is used
+16. springboot annotations
+17. What is the use of @EnableAutoConfiguration
+18. how to exclude a bean in springboot
+19. To application what are the tools you have used. (Jenkins)
+20. how you deployed your application using the tool (Jenkins)
+1)what technologies you have worked on
+2)versions you have worked on
+you experience in angular and java
+3)forms you have used 
+4)what is form group
+5)what is for control
+5)difference between @viewchild and @viewchildern
+6)difference between subject, behaviour subject
+7)different Rxjs methods you have used
+8)how do you connect backend and front end
+9)you have multiple springboot applications running how you mention which one to access in front end
+10)have you worked on guards
+11)map vs tap rxjs methods
+12)what are pipes
+13)custom pipes you have used
+14)interceptors
+Advantages or reactive forms
+what are structural directives
+example for ngFor and explain 
+how you mention port in properties in java
+what is profiling and why we use it
+how you use profiles
+how you use a property value mentioned in application properties
+@EnableAutoConfiguration
+@configuartion Vs @component
+iterator vs iterator list
+exception handling and how you used it
+have you worked on Hiberrnate or JPA
+what are streams
+case you have a list of students, convert to map using streams
+string methods you have used
+arraylist vs Linked List
+you have a list of employees you need to perform operations on , which list you declare employee with and why
+what is TDD
+have you written test cases
+what is transactional
+have you worked on transactional cases
+how you deployed your code on GCP
+tasks in tekton
+how to setup git build in yaml
+how you get image from artifact registry and deploy in cloud run
+different properties you metioned in terraform code
+have you worked on schedulers
+
+1. Tell me about yourself
+2. What is abstract? What is the purpose of it?
+3. What is static keyword? Why we use static keyword before variables and methods?
+4. Tell me about angular?
+5. Do you know about life cycle hooks? What are all the hooks we have and can you explain me each of them and tell me anyone of the hook which you have used in your project?
+6. What is data binding? 
+7. In restfull webservices what is @RestController and why we use it?
+8. Can you describe me anyone of the restfull service which you have written in your project?
+9. Have you worked in unit testing? What is @Mock
+10. Tell me the difference between JPA Repository and Native query. And tell me the disadvantages of JPA Repository
+11. In which database have you worked in youpr previous project and can you elaborate what sort of operations you have performed in it.
+12. Tell me about joins like what is inner join, cross join, left join etc.
+13. Normalization
+14. Have you worked with transactions. What is the purpose of transaction?
+15. Have you worked in Agile methodology? What is your role in rally?
+1.explain spring boot flow?
+
+2.how to read data from properties file?
+
+3.scopes of spring.
+
+4.what is single tone design pattern?
+
+5.how to achieve single tone design pattern?
+
+6.what is default scope?
+
+7.what is web flux?
+
+8.how to handle exception in spring boot application?
+
+9.start the spring boot application which starter we use?
+
+10.what is service registry?
+
+11.what is config server?
+
+12.How to testing your application?
+
+13.what is spring profile?
+
+14.How to set environment in spring profile?
+
+15.how to break singleton?
+
+16.what is the difference between intermediate and terminal operation?
+
+17.what are default methods in interface?
+
+18.how hash map work internally?
+
+19.can map heaving multiple keys and values?
+
+20.I have a list of female and male people by counting i need to get all the details(clearly i did not remember question but like this)
+
+21.how to check your code it is up to stranded or not?
+
+22.have you work on Jekins?
+
+23.what is blue green deployment?
+
+24.have you work on cloud?
+
+25.what are the services you work ?
+
+26.what is lambda deployment?
+
+27.Have you worked on dB and which dB you worked?
+
+28.what is the difference between SQL and NoSQL dB?
+Panel : Satheesh - Powertrain suite (20/07/2023)
+
+ 
+
+Angular : 
+
+   
+
+ write component.ts full syntax
+ write module.ts full syntax
+write inline style(css) and html in the component  ts
+tell component communication
+view encapsulation
+Apart from routing , @input, @output how to communicate
+Observable vs promises
+explain Parent/ child communication
+write password authentication method in ts
+Why you prefer reactive forms rather than template driven forms.
+angular vs package.json
+write css to change color of <p>
+angular vs angular js
+ 
+
+java 8
+
+Reverse sentence
+write program to filter employees with age > 50
+ write program to filter employees by get only id
+The interview went around more than 1 hour. Interview Panel were 2 Guys from Germany (Micheal and Wolfgang Jasen).
+
+  Tapaswani Satapathy
+
+1)He asked me about my Introduction - I started from my Education Qualification to Software industry experience and explain how many project i have worked on. They are looking for a candidate who work JSF(Prime Faces-this was my first project i worked on it is a insurance project -They want to migrate that project to Angular also they are going to migrate Struts project which i worked on Nissan to Spring boot, Also they are thinking of Migration of PCF to  GCP(but after one and half years).Also they ask me have you tested your services.
+
+1)What is Type script in Angular. TSc compiler related question they ask?
+
+2)What is comma in Angular?
+
+3)Why we are using Prime NG in Angular?
+
+4)Spring boot flow by using Microservices?
+
+5)What are the Job Seven in Microservices?
+
+6)How Microservices application are communicating from Angular frame work to Spring boot Microservices(High Level not much Technical)?
+
+7)After that they ask about ford office going how you are going i said i am going by my bike and Ford office is visible from my Terris Also they are searching a candidate who are working from home work from home 
+
+8)Also i conveyed about i had cook and maid for cleaning service - They are very happy by listening this.
+
+9)Looks like they are searching for a person who are dedicately work for their project 24*7.And easily be available for the ford office.
+
+
+Please find the interview questions below:
+
+ 
+
+How will you create a web service(Explain from controller to your DB)?
+Difference between rest template and feign client
+what services have you worked on in cloud?
+How did you secure your APIs?
+Write a code to implement ArrayOutOfBoundsException.(Based on that few questions where asked on exception hierarchy).
+write a code to find the second largest number in a list.
+what are the http methods?
+difference between put and post.
+ How was your application deployed?
+Have you worked in SQL?
+ Common questions 
+
+Roles and responsibilities in previous company?
+ Is your project on premise or cloud?
+ Have you fixed sonar bugs?
+ 
+
+ 
+
+   Springboot
+
+Write controller ,service, repository and entity for Employee login api.
+ What is log4j
+ Have you worked with microservice project and explain
+ How you deploy your application?
+ Which jar you use for security or how you achieve security?
+How you add external configuration
+ 
+
+ 
+
+Angular
+
+ 
+
+How you communicate frontend
+ Angular UI libraries any?
+Flow of Angular from backend
+what are the things done in angular
+ 
+
+Database
+
+ 
+
+Stored procedure
+ What dependencies needed in spring Boot for database
+Jenkins
+
+ 
+
+How you created pipeline?
+In Collections what are the classes you have used, explain those.
+Difference between ArrayList and LinkedList.
+Difference between Hashtable and ConcurrentHashMap in Java.
+What is the use of Comparable and Comparator interfaces.
+Explain the String pool concept
+Java 8 features
+what is method reference
+
+What is the use of @Component, @NgModule .
+
+What is spring data JPA, how you implement in spring boot application.
+what is Rest API how you implement in your application.
+what are the annotations have you used in your spring boot application.
+What is @SpringBootApplication annotation use.
+Explain how you handle in expeption in spring boot.
+What is the difference between view and Materialized View?
+difference between primary key, foreign key and Unique constraint.
+what is DDL, DML, TCL?
+
+If you worked in PL SQL
+-----------------------
+what is procedure ,function, anonymous function and cursor?
+
+Do you know about cloud, what cloud have you worked?
+Explain the cloud services whatever you used in your project?
+
+Coding Part
+============
+They will give you a requirement based on whatever framework you have worked
+and will expect to write a code from end to end in that framework.
+
+Query Part
+===========
+Expect to write a query based on some requirement to get the data from database.
+interviewer:WolfGang
+
+1.Introduce yourself Technically
+2.Tell me about your previous project what are teh technologies you have used?
+3.how to configure spring boot appliaction with database
+4.what is microservice?Explain with flow ?
+5.what is circuitBreaker in Microservice?
+6.question based on my prevoius Project?
+7.how to use junit in spring boot appliaction with flow?
+8.what is the typescript?
+9.what is the difference between javascript and typescript?
+10.what is PrimeNg how to use it in angular?
+11.what is bootstrap how to use it in angular?
+12.what is karma and Jasmine in angular?
+13.how to connect backend with frontend?
+
+2nd Interview
+==============
+Tell me about yourself and Project
+How you will start your Springboot app and where you mention the port
+What is actuators
+What is Profiles
+What is HashMap ? For passing the value in Hashmap what you are using?
+What is HashMap and Concurrent HashMap?
+
+1st Interview
+==============
+Tell me about yourself and Project and your roles and responsibility.
+Regarding Agile They have asked so many Question.
+What is Java
+What is JVM
+How you handle Validation in Angular
+If you have values s1 ={01,02,03,04,05,06,07,08,09} then you need to do prefix with Zero how you can mention.
+How you did GCP Migration?
+They asked lots of question regarding application.properties
+How you did the Jenkins Deployment for GCP related migration
+Java FullStack Interview Questions
+
+Angular
+Angular architecture
+Lifecycle Angular
+how to define multiple service for each module
+routings in module routers routerlinks
+what if provided root is not specified
+how to inject service in angular 
+can we have more than one root
+how to secure endpoint in angular
+how to route to another page without changing the baseurl
+web pack in angular
+multiple env setup in angular
+forms form builder form arrays
+how to communicate from parent to child vice versa
+ngcontentafterinit
+lifecycle hooks angular
+change detection capturing from one component to another with out routing mechanism
+enable specific button after having validation in the form and ensure required all fields are filled
+observables and promises
+when to use promises and observables 
+how to combine 2 observables
+how to wait untill all observables are completed and emit a final value in angular
+custom component in angular
+material ui in angular
+testing in angular
+scenario based questions to load a drop down and on click hit a endpoint and in how many ways we can optimise for this.
+
+SpringBoot
+
+Spring architecture
+Spring vs Spring boot
+Annotation in Spring
+difference of
+@Controller @RestController @Service @Repository @Qualifiers @ComponentScan @Component @Bean @value
+Spring Security
+how to authenticate and authorize spring endpoint
+jwt tokens
+how to encrypt decrypt sensitive data in spring
+in howmany ways cors origin can be handled
+how to communicate b/w spring to angular
+Env specific Spring properties
+Response entity Response body
+pathparams requestparams requestbody
+how to add required attributes in pathparams and requestparams
+get the employee by id in key value response in spring
+how to add new element in json object
+how to load db configuration in spring in on startup app
+how to avoid multiple db hits in a for loop
+exception handling custum exceptions
+design patters
+request and sessions
+hashmap cuncurrent hashmap
+== equals
+hashcollisions
+how to import a class if it has same name in compiled versions
+deploying in spring and angular
+junit
+any productions issues or critical issues faced in recent projects and how did you handle.
+Interview Qus:
+
+1.How to secure the project and what type of security have u used in your project?
+2.How to create a token and autheticate the module?
+3.Explain the flow of hitting the api url.front end and back end.
+4.Why we are using service in angular.
+5.Explain @Controller,@service,@repo,@Component,@Bean ext.
+6.How to connect database without using app.property file.
+7.List of Employee(id,name,dept,dob) find the all emp names alone using java8 coding.
+8.dept have it and non-it how many members available in each dept using java8 coding.
+9.write a code of immutable class.
+10.In which situation do u have used concurrenthasmap. and why it used?
+11.Explain and write a coding to get all list of employees getEmp method end to end flow in testing? 
+12.Explain the all testing annotation.why we are using and where we need to use.
+
+13. class Employee{
+psv main(String[] arg){
+final int arr[]={23,12,42,24,15};
+
+ arr[3]=20;
+ 
+ for(i=0;i<arr.lenth;i++){
+ Sysout("loop"+i);
+ }
+}
+
+14.class Employee{
+psv main(String[] arg){
+
+Private static void get(){
+sysout("********");
+}}}
+ is it possible to override the get method?
+ 
+ 15. is it possible to override the static method?
+ 16.Explain the multi core concept.
+ 17.Feature of java8.
+Tell me about yourself
+
+java 8 features
+
+what is optional
+
+what is functional interface
+
+map, HashMap, Hash table, Hashing internal working
+
+how to replace null key with another key
+
+Explain jenkins
+
+sonar lint
+
+junit annotations
+
+what are the testing you have done with junit
+
+sprinData JPA explain flow
+
+Annotations used in spring boot
+
+How to use different schema in spring boot
+
+write Controller to get list of values( without parameter or with id or with name anything i can pass)
+
+but one controller have to write
+
+use stream and get list of employee who starts with s and order by salary.
+
+explain hibernate how it works
+
+Mapping in hibernate
+
+Explain how you used spring boot in your application
+
+default JPA queries
+
+what is trywithResources?
+
+Have you worked in micro service? what are the disadvantage in microservice?
+
+What is @Transaction annotation
+
+
